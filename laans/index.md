@@ -2,6 +2,8 @@
 
 ## currently testing linking pages
 
-Pages currently made 
-> **[making south indian steamed rice cake](https://erazsher.github.io/laans/steamricecake.html)**
-> WIP
+### Pages currently made 
+
+ > recipe for south indian **[steamed rice cake](https://erazsher.github.io/laans/steamricecake.html)**
+ 
+> Another site **WIP**
