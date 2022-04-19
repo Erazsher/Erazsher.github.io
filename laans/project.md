@@ -1,7 +1,7 @@
 # [PROJECT YO]
 
-[Repo](https://github.com/Erazsher/Project_Yo)
-
+## [Repo](https://github.com/Erazsher/Project_Yo)
+## [presentation](https://raw.githubusercontent.com/Erazsher/Erazsher.github.io/master/laans/project.pdf)
 Contains all updates and files on project_yo
 
 ROOMMATE APP
