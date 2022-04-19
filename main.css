@@ -4,31 +4,29 @@
 }
 
 @font-face {
-    font-family: 'Droid Serif';
-    src: url('fonts/DroidSerif-Regular-webfont.woff2') format('woff2'),
-         url('fonts/DroidSerif-Regular-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Sans-serif';
+        font-weight: bold;
     font-style: normal;
+    font-size: xx-large;	
 }
 
 @font-face {
-    font-family: 'Droid Serif';
-    src: url('fonts/DroidSerif-Italic-webfont.woff2') format('woff2'),
-         url('fonts/DroidSerif-Italic-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Sans-serif';
+    
+    font-weight: bold;
     font-style: oblique;
+    font-size: xx-large;
 }
 
 @font-face {
-    font-family: 'Anonymous Pro';
-    src: url('fonts/AnonymousPro-webfont.woff2') format('woff2'),
-         url('fonts/AnonymousPro-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Sans-serif';
+    font-weight: bold;
     font-style: normal;
+    font-size: xx-large; 
 }
 
 body {
-    font-family: "Droid Serif", serif; 
+    font-family: "Sans-serif"; 
     font-weight: normal;
     background-color: #211a1a;
     color: #e3d7bf;
@@ -36,6 +34,7 @@ body {
     margin-left: 14px;
     margin-right: 20px;
     max-width: 800px;
+    font-size: x-large;	
 }
 
 a, a:visited { color: #e16734; }
