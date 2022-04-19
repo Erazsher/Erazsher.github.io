@@ -13,7 +13,7 @@ Contains all info on the **ROOMMATE APP**
 
 >> It is built on Google’s infrastructure.
 
-
-
-
+##FLUTTER
+>> Flutter is a free and open-source mobile UI framework created by Google 
+ >> To develop with Flutter, you will use a programming language called Dart. 
 
