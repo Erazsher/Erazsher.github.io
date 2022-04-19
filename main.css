@@ -1,4 +1,8 @@
-<style>div { border: 1px solid #e3d7bf; }</style>
+.myDiv {
+  border: 2px solid #e3d7bf;
+
+}
+
 @font-face {
     font-family: 'Droid Serif';
     src: url('fonts/DroidSerif-Regular-webfont.woff2') format('woff2'),
