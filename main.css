@@ -31,8 +31,8 @@ body {
     background-color: #211a1a;
     color: #e3d7bf;
     padding-bottom: 3em;
-    margin-left: 14px;
-    margin-right: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
     max-width: 800px;
     font-size: x-large;	
 }
@@ -89,7 +89,7 @@ pre {
     font-family: "Anonymous Pro", monospace;
     background-color: #232927;
     padding: 10px;
-    border-right: 1px solid #1a1a1a;
+    border-right: 0px solid #1a1a1a;
     border-bottom: 1px solid #1a1a1a;
     line-height: 105%;
     font-weight: 500;
@@ -113,7 +113,6 @@ ul {
 }
 
 th {
-    padding-right: 1em;
     text-align: left;
 }
 

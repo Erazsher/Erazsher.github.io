@@ -1,17 +1,15 @@
 .myDiv {
+  position: relative;	
   border: 2px solid #e3d7bf;
-  position: static ;
-  top:0;
-  left:0;
-  bottom:0;
-  right:0;
-  height:100%;
-  width:100%;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  
 }
 
 @font-face {
     font-family: 'Sans-serif';
-        font-weight: bold;
+    font-weight: bold;
     font-style: normal;
     font-size: xx-large;	
 }
@@ -36,11 +34,9 @@ body {
     font-weight: normal;
     background-color: #211a1a;
     color: #e3d7bf;
-    padding-bottom: 3em;
-    margin-left: 14px;
-    margin-right: 20px;
     max-width: 800px;
     font-size: x-large;	
+    align="centre";
 }
 
 a, a:visited { color: #e16734; }
@@ -51,89 +47,8 @@ h1, h2, h3, h4, h5 {
     /*text-shadow: 1px 2px 0px #476871;*/
 }
 
-li, p {
-    line-height: 125%;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
-}
 
-p {
-    margin-top: 0em;
-    margin-bottom: 0.3em;
-    text-indent: 1.3em;
-}
 
-p.first {
-    text-indent: 0em;
-}
 
-img.screenshot {
-    border: 1px solid #476871;
-    margin-top: 10px;
-}
 
-footer {
-    padding-top: 0.5em;
-}
-
-#title {
-    padding: 0;
-    margin: 0;
-    font-size: 60pt;
-    line-height: 0.9;
-}
-
-div.date {
-    font-size: 0.9em;
-    color: #5d6d68;
-    line-height: 2.2;
-    text-transform: uppercase;
-}
-
-pre {
-    font-family: "Anonymous Pro", monospace;
-    background-color: #232927;
-    padding: 10px;
-    border-right: 1px solid #1a1a1a;
-    border-bottom: 1px solid #1a1a1a;
-    line-height: 105%;
-    font-weight: 500;
-}
-
-code {
-    font-family: "Anonymous Pro", monospace;
-    background-color: #232927;
-    white-space: nowrap;
-}
-
-p.caption {
-    margin-top: 1em;
-    font-weight: normal;
-    font-style: italic;
-    text-indent: 0em;
-}
-
-ul {
-    list-style-type: square;
-}
-
-th {
-    padding-right: 1em;
-    text-align: left;
-}
-
-td {
-    vertical-align: top;
-}
-
-img#packages {
-  position:absolute;
-  right:50px;
-}
-
-span.Prompt, span.Comment { color: #5d6d68; }
-span.Statement { font-weight: bold; }
-span.PreProc { color: #aca18d; }
-span.Special { color: #f8ebd1; }
 
