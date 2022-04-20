@@ -46,8 +46,10 @@ h1, h2, h3, h4, h5 {
     padding-left: 35px;
     /*text-shadow: 1px 2px 0px #476871;*/
 }
+title {
+	padding-left: 35px;
 
-
+       }
 
 
 
