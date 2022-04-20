@@ -1,11 +1,15 @@
 .myDiv {
-  border: 2px solid #e3d7bf;
-
+         
+	border: 2px solid #e3d7bf;
+        padding-left: 20px; 
+} 
+.shaDiv {
+	text-shadow: 1px 2px 0px #476871;
 }
 
 @font-face {
     font-family: 'Sans-serif';
-        font-weight: bold;
+    font-weight: bold;
     font-style: normal;
     font-size: xx-large;	
 }
@@ -30,7 +34,6 @@ body {
     font-weight: normal;
     background-color: #211a1a;
     color: #e3d7bf;
-    padding-bottom: 3em;
     margin-left: 0px;
     margin-right: 0px;
     max-width: 800px;
@@ -71,11 +74,12 @@ footer {
     padding-top: 0.5em;
 }
 
-#title {
-    padding: 0;
+title {
+   /* padding: 0;
     margin: 0;
     font-size: 60pt;
-    line-height: 0.9;
+    line-height: 0.9;*/
+     text-shadow: 1px 2px 0px #476871;
 }
 
 div.date {
