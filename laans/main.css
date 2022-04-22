@@ -1,9 +1,8 @@
 .myDiv {
-  position: relative;	
+  position: static;
   border: 4px solid #e3d7bf;
   width: auto;
   height: auto;
-  align-items: center;
 }
 
 @font-face {
