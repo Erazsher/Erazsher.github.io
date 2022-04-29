@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Create dart.yml - Project_Yo - Unnamed repository; edit this file &#39;description&#39; to name the repository.
+</title>
+<link rel="icon" type="image/png" href="../favicon.png" />
+<link rel="alternate" type="application/atom+xml" title="Project_Yo Atom Feed" href="../atom.xml" />
+<link rel="alternate" type="application/atom+xml" title="Project_Yo Atom Feed (tags)" href="../tags.xml" />
+<link rel="stylesheet" type="text/css" href="../style.css" />
+</head>
+<body>
+<table><tr><td><a href="../../"><img src="../logo.png" alt="" width="32" height="32" /></a></td><td><h1>Project_Yo</h1><span class="desc">Unnamed repository; edit this file &#39;description&#39; to name the repository.
+</span></td></tr><tr><td></td><td>
+<a href="../log.html">Log</a> | <a href="../files.html">Files</a> | <a href="../refs.html">Refs</a> | <a href="../file/README.md.html">README</a> | <a href="../file/LICENSE.html">LICENSE</a></td></tr></table>
+<hr/>
+<div id="content">
+<pre><b>commit</b> <a href="../commit/73fa4109ccff99f08fb25bdae4fa204f5109c0f1.html">73fa4109ccff99f08fb25bdae4fa204f5109c0f1</a>
+<b>parent</b> <a href="../commit/c240e86d806e66858553ee31c5ec0801cbab9a3d.html">c240e86d806e66858553ee31c5ec0801cbab9a3d</a>
+<b>Author:</b> Erazsher &lt;<a href="mailto:83161571+Erazsher@users.noreply.github.com">83161571+Erazsher@users.noreply.github.com</a>&gt;
+<b>Date:</b>   Tue, 26 Apr 2022 12:56:06 +0000
+
+Create dart.yml
+<b>Diffstat:</b>
+<table><tr><td class="A">A</td><td><a href="#h0">.github/workflows/dart.yml</a></td><td> | </td><td class="num">42</td><td><span class="i">++++++++++++++++++++++++++++++++++++++++++</span><span class="d"></span></td></tr>
+</table></pre><pre>1 file changed, 42 insertions(+), 0 deletions(-)
+<hr/><b>diff --git a/<a id="h0" href="../file/.github/workflows/dart.yml.html">.github/workflows/dart.yml</a> b/<a href="../file/.github/workflows/dart.yml.html">.github/workflows/dart.yml</a></b>
+<a href="#h0-0" id="h0-0" class="h">@@ -0,0 +1,42 @@
+</a><a href="#h0-0-0" id="h0-0-0" class="i">+# This workflow uses actions that are not certified by GitHub.
+</a><a href="#h0-0-1" id="h0-0-1" class="i">+# They are provided by a third-party and are governed by
+</a><a href="#h0-0-2" id="h0-0-2" class="i">+# separate terms of service, privacy policy, and support
+</a><a href="#h0-0-3" id="h0-0-3" class="i">+# documentation.
+</a><a href="#h0-0-4" id="h0-0-4" class="i">+
+</a><a href="#h0-0-5" id="h0-0-5" class="i">+name: Dart
+</a><a href="#h0-0-6" id="h0-0-6" class="i">+
+</a><a href="#h0-0-7" id="h0-0-7" class="i">+on:
+</a><a href="#h0-0-8" id="h0-0-8" class="i">+  push:
+</a><a href="#h0-0-9" id="h0-0-9" class="i">+    branches: [ main ]
+</a><a href="#h0-0-10" id="h0-0-10" class="i">+  pull_request:
+</a><a href="#h0-0-11" id="h0-0-11" class="i">+    branches: [ main ]
+</a><a href="#h0-0-12" id="h0-0-12" class="i">+
+</a><a href="#h0-0-13" id="h0-0-13" class="i">+jobs:
+</a><a href="#h0-0-14" id="h0-0-14" class="i">+  build:
+</a><a href="#h0-0-15" id="h0-0-15" class="i">+    runs-on: ubuntu-latest
+</a><a href="#h0-0-16" id="h0-0-16" class="i">+
+</a><a href="#h0-0-17" id="h0-0-17" class="i">+    steps:
+</a><a href="#h0-0-18" id="h0-0-18" class="i">+      - uses: actions/checkout@v3
+</a><a href="#h0-0-19" id="h0-0-19" class="i">+
+</a><a href="#h0-0-20" id="h0-0-20" class="i">+      # Note: This workflow uses the latest stable version of the Dart SDK.
+</a><a href="#h0-0-21" id="h0-0-21" class="i">+      # You can specify other versions if desired, see documentation here:
+</a><a href="#h0-0-22" id="h0-0-22" class="i">+      # https://github.com/dart-lang/setup-dart/blob/main/README.md
+</a><a href="#h0-0-23" id="h0-0-23" class="i">+      # - uses: dart-lang/setup-dart@v1
+</a><a href="#h0-0-24" id="h0-0-24" class="i">+      - uses: dart-lang/setup-dart@9a04e6d73cca37bd455e0608d7e5092f881fd603
+</a><a href="#h0-0-25" id="h0-0-25" class="i">+
+</a><a href="#h0-0-26" id="h0-0-26" class="i">+      - name: Install dependencies
+</a><a href="#h0-0-27" id="h0-0-27" class="i">+        run: dart pub get
+</a><a href="#h0-0-28" id="h0-0-28" class="i">+
+</a><a href="#h0-0-29" id="h0-0-29" class="i">+      # Uncomment this step to verify the use of &#39;dart format&#39; on each commit.
+</a><a href="#h0-0-30" id="h0-0-30" class="i">+      # - name: Verify formatting
+</a><a href="#h0-0-31" id="h0-0-31" class="i">+      #   run: dart format --output=none --set-exit-if-changed .
+</a><a href="#h0-0-32" id="h0-0-32" class="i">+
+</a><a href="#h0-0-33" id="h0-0-33" class="i">+      # Consider passing &#39;--fatal-infos&#39; for slightly stricter analysis.
+</a><a href="#h0-0-34" id="h0-0-34" class="i">+      - name: Analyze project source
+</a><a href="#h0-0-35" id="h0-0-35" class="i">+        run: dart analyze
+</a><a href="#h0-0-36" id="h0-0-36" class="i">+
+</a><a href="#h0-0-37" id="h0-0-37" class="i">+      # Your project will need to have tests in test/ and a dependency on
+</a><a href="#h0-0-38" id="h0-0-38" class="i">+      # package:test for this step to succeed. Note that Flutter projects will
+</a><a href="#h0-0-39" id="h0-0-39" class="i">+      # want to change this to &#39;flutter test&#39;.
+</a><a href="#h0-0-40" id="h0-0-40" class="i">+      - name: Run tests
+</a><a href="#h0-0-41" id="h0-0-41" class="i">+        run: dart test
+</a></pre>
+</div>
+</body>
+</html>

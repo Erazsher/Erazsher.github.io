@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>widget_test.dart - Project_Yo - Unnamed repository; edit this file &#39;description&#39; to name the repository.
+</title>
+<link rel="icon" type="image/png" href="../../favicon.png" />
+<link rel="alternate" type="application/atom+xml" title="Project_Yo Atom Feed" href="../../atom.xml" />
+<link rel="alternate" type="application/atom+xml" title="Project_Yo Atom Feed (tags)" href="../../tags.xml" />
+<link rel="stylesheet" type="text/css" href="../../style.css" />
+</head>
+<body>
+<table><tr><td><a href="../../../"><img src="../../logo.png" alt="" width="32" height="32" /></a></td><td><h1>Project_Yo</h1><span class="desc">Unnamed repository; edit this file &#39;description&#39; to name the repository.
+</span></td></tr><tr><td></td><td>
+<a href="../../log.html">Log</a> | <a href="../../files.html">Files</a> | <a href="../../refs.html">Refs</a> | <a href="../../file/README.md.html">README</a> | <a href="../../file/LICENSE.html">LICENSE</a></td></tr></table>
+<hr/>
+<div id="content">
+<p> widget_test.dart (1057B)</p><hr/><pre id="blob">
+<a href="#l1" class="line" id="l1">      1</a> // This is a basic Flutter widget test.
+<a href="#l2" class="line" id="l2">      2</a> //
+<a href="#l3" class="line" id="l3">      3</a> // To perform an interaction with a widget in your test, use the WidgetTester
+<a href="#l4" class="line" id="l4">      4</a> // utility that Flutter provides. For example, you can send tap and scroll
+<a href="#l5" class="line" id="l5">      5</a> // gestures. You can also use WidgetTester to find child widgets in the widget
+<a href="#l6" class="line" id="l6">      6</a> // tree, read text, and verify that the values of widget properties are correct.
+<a href="#l7" class="line" id="l7">      7</a> 
+<a href="#l8" class="line" id="l8">      8</a> import &#39;package:flutter/material.dart&#39;;
+<a href="#l9" class="line" id="l9">      9</a> import &#39;package:flutter_test/flutter_test.dart&#39;;
+<a href="#l10" class="line" id="l10">     10</a> 
+<a href="#l11" class="line" id="l11">     11</a> import &#39;package:roommate_app/main.dart&#39;;
+<a href="#l12" class="line" id="l12">     12</a> 
+<a href="#l13" class="line" id="l13">     13</a> void main() {
+<a href="#l14" class="line" id="l14">     14</a>   testWidgets(&#39;Counter increments smoke test&#39;, (WidgetTester tester) async {
+<a href="#l15" class="line" id="l15">     15</a>     // Build our app and trigger a frame.
+<a href="#l16" class="line" id="l16">     16</a>     await tester.pumpWidget(const MyApp());
+<a href="#l17" class="line" id="l17">     17</a> 
+<a href="#l18" class="line" id="l18">     18</a>     // Verify that our counter starts at 0.
+<a href="#l19" class="line" id="l19">     19</a>     expect(find.text(&#39;0&#39;), findsOneWidget);
+<a href="#l20" class="line" id="l20">     20</a>     expect(find.text(&#39;1&#39;), findsNothing);
+<a href="#l21" class="line" id="l21">     21</a> 
+<a href="#l22" class="line" id="l22">     22</a>     // Tap the &#39;+&#39; icon and trigger a frame.
+<a href="#l23" class="line" id="l23">     23</a>     await tester.tap(find.byIcon(Icons.add));
+<a href="#l24" class="line" id="l24">     24</a>     await tester.pump();
+<a href="#l25" class="line" id="l25">     25</a> 
+<a href="#l26" class="line" id="l26">     26</a>     // Verify that our counter has incremented.
+<a href="#l27" class="line" id="l27">     27</a>     expect(find.text(&#39;0&#39;), findsNothing);
+<a href="#l28" class="line" id="l28">     28</a>     expect(find.text(&#39;1&#39;), findsOneWidget);
+<a href="#l29" class="line" id="l29">     29</a>   });
+<a href="#l30" class="line" id="l30">     30</a> }
+</pre>
+</div>
+</body>
+</html>

@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Project_Yo, branch HEAD</title>
+<subtitle>Unnamed repository; edit this file &#39;description&#39; to name the repository.
+</subtitle>
+<entry>
+<id>648bddbc74f0cbd58309b43541ea429090cb20e5</id>
+<published>2022-04-28T13:07:41Z</published>
+<updated>2022-04-28T13:07:41Z</updated>
+<title type="text">README-update</title>
+<link rel="alternate" type="text/html" href="commit/648bddbc74f0cbd58309b43541ea429090cb20e5.html" />
+<author>
+<name>LAANSdeservile</name>
+<email>LAANSdeservile@protonmail.com</email>
+</author>
+<content type="text">commit 648bddbc74f0cbd58309b43541ea429090cb20e5
+parent 379b912a507f07209283b0b4c0d431e07979b003
+Author: LAANSdeservile &lt;LAANSdeservile@protonmail.com&gt;
+Date:   Thu, 28 Apr 2022 18:37:41 +0530
+
+README-update
+
+</content>
+</entry>
+<entry>
+<id>379b912a507f07209283b0b4c0d431e07979b003</id>
+<published>2022-04-28T13:00:32Z</published>
+<updated>2022-04-28T13:00:32Z</updated>
+<title type="text">Merge pull request #1 from Erazsher/add-license-1</title>
+<link rel="alternate" type="text/html" href="commit/379b912a507f07209283b0b4c0d431e07979b003.html" />
+<author>
+<name>Erazsher</name>
+<email>83161571+Erazsher@users.noreply.github.com</email>
+</author>
+<content type="text">commit 379b912a507f07209283b0b4c0d431e07979b003
+parent 73fa4109ccff99f08fb25bdae4fa204f5109c0f1
+Author: Erazsher &lt;83161571+Erazsher@users.noreply.github.com&gt;
+Date:   Thu, 28 Apr 2022 13:00:32 +0000
+
+Merge pull request #1 from Erazsher/add-license-1
+
+Created-License
+</content>
+</entry>
+<entry>
+<id>c88a6dfa942fed62d5791764ca9e687f0931a87c</id>
+<published>2022-04-28T13:00:18Z</published>
+<updated>2022-04-28T13:00:18Z</updated>
+<title type="text">Created-License</title>
+<link rel="alternate" type="text/html" href="commit/c88a6dfa942fed62d5791764ca9e687f0931a87c.html" />
+<author>
+<name>Erazsher</name>
+<email>83161571+Erazsher@users.noreply.github.com</email>
+</author>
+<content type="text">commit c88a6dfa942fed62d5791764ca9e687f0931a87c
+parent 73fa4109ccff99f08fb25bdae4fa204f5109c0f1
+Author: Erazsher &lt;83161571+Erazsher@users.noreply.github.com&gt;
+Date:   Thu, 28 Apr 2022 13:00:18 +0000
+
+Created-License
+</content>
+</entry>
+<entry>
+<id>73fa4109ccff99f08fb25bdae4fa204f5109c0f1</id>
+<published>2022-04-26T12:56:06Z</published>
+<updated>2022-04-26T12:56:06Z</updated>
+<title type="text">Create dart.yml</title>
+<link rel="alternate" type="text/html" href="commit/73fa4109ccff99f08fb25bdae4fa204f5109c0f1.html" />
+<author>
+<name>Erazsher</name>
+<email>83161571+Erazsher@users.noreply.github.com</email>
+</author>
+<content type="text">commit 73fa4109ccff99f08fb25bdae4fa204f5109c0f1
+parent c240e86d806e66858553ee31c5ec0801cbab9a3d
+Author: Erazsher &lt;83161571+Erazsher@users.noreply.github.com&gt;
+Date:   Tue, 26 Apr 2022 12:56:06 +0000
+
+Create dart.yml
+</content>
+</entry>
+<entry>
+<id>c240e86d806e66858553ee31c5ec0801cbab9a3d</id>
+<published>2022-04-26T10:11:04Z</published>
+<updated>2022-04-26T10:11:04Z</updated>
+<title type="text">fixing-typo-README</title>
+<link rel="alternate" type="text/html" href="commit/c240e86d806e66858553ee31c5ec0801cbab9a3d.html" />
+<author>
+<name>LAANSdeservile</name>
+<email>LAANSdeservile@protonmail.com</email>
+</author>
+<content type="text">commit c240e86d806e66858553ee31c5ec0801cbab9a3d
+parent a78737a046e4919d0a2fe2772d46299f9448e24f
+Author: LAANSdeservile &lt;LAANSdeservile@protonmail.com&gt;
+Date:   Tue, 26 Apr 2022 15:41:04 +0530
+
+fixing-typo-README
+
+</content>
+</entry>
+<entry>
+<id>a78737a046e4919d0a2fe2772d46299f9448e24f</id>
+<published>2022-04-26T10:06:00Z</published>
+<updated>2022-04-26T10:06:00Z</updated>
+<title type="text">added-README</title>
+<link rel="alternate" type="text/html" href="commit/a78737a046e4919d0a2fe2772d46299f9448e24f.html" />
+<author>
+<name>LAANSdeservile</name>
+<email>LAANSdeservile@protonmail.com</email>
+</author>
+<content type="text">commit a78737a046e4919d0a2fe2772d46299f9448e24f
+parent 7603983592b2917ba9d8d0708ca9457b89593a3d
+Author: LAANSdeservile &lt;LAANSdeservile@protonmail.com&gt;
+Date:   Tue, 26 Apr 2022 15:36:00 +0530
+
+added-README
+
+</content>
+</entry>
+<entry>
+<id>7603983592b2917ba9d8d0708ca9457b89593a3d</id>
+<published>2022-04-26T10:02:31Z</published>
+<updated>2022-04-26T10:02:31Z</updated>
+<title type="text">change-up</title>
+<link rel="alternate" type="text/html" href="commit/7603983592b2917ba9d8d0708ca9457b89593a3d.html" />
+<author>
+<name>LAANSdeservile</name>
+<email>LAANSdeservile@protonmail.com</email>
+</author>
+<content type="text">commit 7603983592b2917ba9d8d0708ca9457b89593a3d
+parent 153f0163d0130d356b6d38a84236d548d02c505c
+Author: LAANSdeservile &lt;LAANSdeservile@protonmail.com&gt;
+Date:   Tue, 26 Apr 2022 15:32:31 +0530
+
+change-up
+
+</content>
+</entry>
+<entry>
+<id>153f0163d0130d356b6d38a84236d548d02c505c</id>
+<published>2022-04-24T04:28:28Z</published>
+<updated>2022-04-24T04:28:28Z</updated>
+<title type="text">template-for-search</title>
+<link rel="alternate" type="text/html" href="commit/153f0163d0130d356b6d38a84236d548d02c505c.html" />
+<author>
+<name>LAANSdeservile</name>
+<email>LAANSdeservile@protonmail.com</email>
+</author>
+<content type="text">commit 153f0163d0130d356b6d38a84236d548d02c505c
+parent a2d605b5f1f755f9bb0932ab9c6c052cae734052
+Author: LAANSdeservile &lt;LAANSdeservile@protonmail.com&gt;
+Date:   Sun, 24 Apr 2022 09:58:28 +0530
+
+template-for-search
+
+</content>
+</entry>
+<entry>
+<id>a2d605b5f1f755f9bb0932ab9c6c052cae734052</id>
+<published>2022-04-22T11:03:09Z</published>
+<updated>2022-04-22T11:03:09Z</updated>
+<title type="text">added-license</title>
+<link rel="alternate" type="text/html" href="commit/a2d605b5f1f755f9bb0932ab9c6c052cae734052.html" />
+<author>
+<name>LAANSdeservile</name>
+<email>LAANSdeservile@protonmail.com</email>
+</author>
+<content type="text">commit a2d605b5f1f755f9bb0932ab9c6c052cae734052
+parent b33addc8588e2d43a9e601bbb2781a51c737b111
+Author: LAANSdeservile &lt;LAANSdeservile@protonmail.com&gt;
+Date:   Fri, 22 Apr 2022 16:33:09 +0530
+
+added-license
+
+</content>
+</entry>
+<entry>
+<id>b33addc8588e2d43a9e601bbb2781a51c737b111</id>
+<published>2022-04-22T11:00:45Z</published>
+<updated>2022-04-22T11:00:45Z</updated>
+<title type="text">Added-license</title>
+<link rel="alternate" type="text/html" href="commit/b33addc8588e2d43a9e601bbb2781a51c737b111.html" />
+<author>
+<name>Erazsher</name>
+<email>83161571+Erazsher@users.noreply.github.com</email>
+</author>
+<content type="text">commit b33addc8588e2d43a9e601bbb2781a51c737b111
+parent 0c588960f0ec2f2794cbcd99643bffb51f280f85
+Author: Erazsher &lt;83161571+Erazsher@users.noreply.github.com&gt;
+Date:   Fri, 22 Apr 2022 11:00:45 +0000
+
+Added-license
+</content>
+</entry>
+<entry>
+<id>0c588960f0ec2f2794cbcd99643bffb51f280f85</id>
+<published>2022-04-18T12:02:44Z</published>
+<updated>2022-04-18T12:02:44Z</updated>
+<title type="text">UI change to Homepage</title>
+<link rel="alternate" type="text/html" href="commit/0c588960f0ec2f2794cbcd99643bffb51f280f85.html" />
+<author>
+<name>LAANSdeservile</name>
+<email>LAANSdeservile@protonmail.com</email>
+</author>
+<content type="text">commit 0c588960f0ec2f2794cbcd99643bffb51f280f85
+parent 09d099c60f3f16bd54d0db86727942d4195bd739
+Author: LAANSdeservile &lt;LAANSdeservile@protonmail.com&gt;
+Date:   Mon, 18 Apr 2022 17:32:44 +0530
+
+UI change to Homepage
+
+</content>
+</entry>
+<entry>
+<id>09d099c60f3f16bd54d0db86727942d4195bd739</id>
+<published>2022-04-18T11:53:10Z</published>
+<updated>2022-04-18T11:53:10Z</updated>
+<title type="text">Added home page</title>
+<link rel="alternate" type="text/html" href="commit/09d099c60f3f16bd54d0db86727942d4195bd739.html" />
+<author>
+<name>LAANSdeservile</name>
+<email>LAANSdeservile@protonmail.com</email>
+</author>
+<content type="text">commit 09d099c60f3f16bd54d0db86727942d4195bd739
+parent dc170dc02cd3cf28bb65baf6d962d286b0f10238
+Author: LAANSdeservile &lt;LAANSdeservile@protonmail.com&gt;
+Date:   Mon, 18 Apr 2022 17:23:10 +0530
+
+Added home page
+
+</content>
+</entry>
+<entry>
+<id>dc170dc02cd3cf28bb65baf6d962d286b0f10238</id>
+<published>2022-04-14T07:55:03Z</published>
+<updated>2022-04-14T07:55:03Z</updated>
+<title type="text">fixed typo in README</title>
+<link rel="alternate" type="text/html" href="commit/dc170dc02cd3cf28bb65baf6d962d286b0f10238.html" />
+<author>
+<name>LAANSdeservile</name>
+<email>LAANSdeservile@protonmail.com</email>
+</author>
+<content type="text">commit dc170dc02cd3cf28bb65baf6d962d286b0f10238
+parent d5881b447bd66ad3b3820f17b54589cea0d58d5a
+Author: LAANSdeservile &lt;LAANSdeservile@protonmail.com&gt;
+Date:   Thu, 14 Apr 2022 13:25:03 +0530
+
+fixed typo in README
+
+</content>
+</entry>
+<entry>
+<id>d5881b447bd66ad3b3820f17b54589cea0d58d5a</id>
+<published>2022-04-14T07:47:37Z</published>
+<updated>2022-04-14T07:47:37Z</updated>
+<title type="text">changes to README</title>
+<link rel="alternate" type="text/html" href="commit/d5881b447bd66ad3b3820f17b54589cea0d58d5a.html" />
+<author>
+<name>LAANSdeservile</name>
+<email>LAANSdeservile@protonmail.com</email>
+</author>
+<content type="text">commit d5881b447bd66ad3b3820f17b54589cea0d58d5a
+parent 9b3b29c7c9fa727118ea66fedb21f922d21e89b4
+Author: LAANSdeservile &lt;LAANSdeservile@protonmail.com&gt;
+Date:   Thu, 14 Apr 2022 13:17:37 +0530
+
+changes to README
+
+</content>
+</entry>
+<entry>
+<id>9b3b29c7c9fa727118ea66fedb21f922d21e89b4</id>
+<published>2022-04-14T07:45:28Z</published>
+<updated>2022-04-14T07:45:28Z</updated>
+<title type="text">Added UI template for password retrieving</title>
+<link rel="alternate" type="text/html" href="commit/9b3b29c7c9fa727118ea66fedb21f922d21e89b4.html" />
+<author>
+<name>LAANSdeservile</name>
+<email>LAANSdeservile@protonmail.com</email>
+</author>
+<content type="text">commit 9b3b29c7c9fa727118ea66fedb21f922d21e89b4
+parent 094cf0684032909289785a6607d50081ffcb07d7
+Author: LAANSdeservile &lt;LAANSdeservile@protonmail.com&gt;
+Date:   Thu, 14 Apr 2022 13:15:28 +0530
+
+Added UI template for password retrieving
+
+</content>
+</entry>
+<entry>
+<id>094cf0684032909289785a6607d50081ffcb07d7</id>
+<published>2022-04-13T08:46:25Z</published>
+<updated>2022-04-13T08:46:25Z</updated>
+<title type="text">change to signup UI</title>
+<link rel="alternate" type="text/html" href="commit/094cf0684032909289785a6607d50081ffcb07d7.html" />
+<author>
+<name>LAANSdeservile</name>
+<email>LAANSdeservile@protonmail.com</email>
+</author>
+<content type="text">commit 094cf0684032909289785a6607d50081ffcb07d7
+parent 913db4cd72c3ba7229d482ad31d1ab05d6250f08
+Author: LAANSdeservile &lt;LAANSdeservile@protonmail.com&gt;
+Date:   Wed, 13 Apr 2022 14:16:25 +0530
+
+change to signup UI
+
+</content>
+</entry>
+<entry>
+<id>913db4cd72c3ba7229d482ad31d1ab05d6250f08</id>
+<published>2022-04-13T06:16:28Z</published>
+<updated>2022-04-13T06:16:28Z</updated>
+<title type="text">updated README</title>
+<link rel="alternate" type="text/html" href="commit/913db4cd72c3ba7229d482ad31d1ab05d6250f08.html" />
+<author>
+<name>LAANSdeservile</name>
+<email>LAANSdeservile@protonmail.com</email>
+</author>
+<content type="text">commit 913db4cd72c3ba7229d482ad31d1ab05d6250f08
+parent 6bf83a14c8b999f475ab3c1d7835c96f53906bbe
+Author: LAANSdeservile &lt;LAANSdeservile@protonmail.com&gt;
+Date:   Wed, 13 Apr 2022 11:46:28 +0530
+
+updated README
+
+</content>
+</entry>
+<entry>
+<id>6bf83a14c8b999f475ab3c1d7835c96f53906bbe</id>
+<published>2022-04-13T06:15:31Z</published>
+<updated>2022-04-13T06:15:31Z</updated>
+<title type="text">slight changes to README</title>
+<link rel="alternate" type="text/html" href="commit/6bf83a14c8b999f475ab3c1d7835c96f53906bbe.html" />
+<author>
+<name>LAANSdeservile</name>
+<email>LAANSdeservile@protonmail.com</email>
+</author>
+<content type="text">commit 6bf83a14c8b999f475ab3c1d7835c96f53906bbe
+parent b8bb6426d1fc6969b8f5bfaa016008ec46f7b179
+Author: LAANSdeservile &lt;LAANSdeservile@protonmail.com&gt;
+Date:   Wed, 13 Apr 2022 11:45:31 +0530
+
+slight changes to README
+
+</content>
+</entry>
+<entry>
+<id>b8bb6426d1fc6969b8f5bfaa016008ec46f7b179</id>
+<published>2022-04-13T06:14:06Z</published>
+<updated>2022-04-13T06:14:06Z</updated>
+<title type="text">Added screenshots to docs</title>
+<link rel="alternate" type="text/html" href="commit/b8bb6426d1fc6969b8f5bfaa016008ec46f7b179.html" />
+<author>
+<name>LAANSdeservile</name>
+<email>LAANSdeservile@protonmail.com</email>
+</author>
+<content type="text">commit b8bb6426d1fc6969b8f5bfaa016008ec46f7b179
+parent cb2c53e8dfb8ebd995dce4d50e505023d614a2e4
+Author: LAANSdeservile &lt;LAANSdeservile@protonmail.com&gt;
+Date:   Wed, 13 Apr 2022 11:44:06 +0530
+
+Added screenshots to docs
+
+</content>
+</entry>
+<entry>
+<id>cb2c53e8dfb8ebd995dce4d50e505023d614a2e4</id>
+<published>2022-04-13T06:11:41Z</published>
+<updated>2022-04-13T06:11:41Z</updated>
+<title type="text">Edited README and added template for UI</title>
+<link rel="alternate" type="text/html" href="commit/cb2c53e8dfb8ebd995dce4d50e505023d614a2e4.html" />
+<author>
+<name>LAANSdeservile</name>
+<email>LAANSdeservile@protonmail.com</email>
+</author>
+<content type="text">commit cb2c53e8dfb8ebd995dce4d50e505023d614a2e4
+parent f0a3f4ec3c15dee9e3fcb6c27e5f4b995aa117ab
+Author: LAANSdeservile &lt;LAANSdeservile@protonmail.com&gt;
+Date:   Wed, 13 Apr 2022 11:41:41 +0530
+
+Edited README and added template for UI
+
+</content>
+</entry>
+<entry>
+<id>f0a3f4ec3c15dee9e3fcb6c27e5f4b995aa117ab</id>
+<published>2022-04-13T06:08:46Z</published>
+<updated>2022-04-13T06:08:46Z</updated>
+<title type="text">clean up</title>
+<link rel="alternate" type="text/html" href="commit/f0a3f4ec3c15dee9e3fcb6c27e5f4b995aa117ab.html" />
+<author>
+<name>Erazsher</name>
+<email>83161571+Erazsher@users.noreply.github.com</email>
+</author>
+<content type="text">commit f0a3f4ec3c15dee9e3fcb6c27e5f4b995aa117ab
+parent 1ef526d6c2ef55b62e153c457b44a7f5cb6c7cc7
+Author: Erazsher &lt;83161571+Erazsher@users.noreply.github.com&gt;
+Date:   Wed, 13 Apr 2022 06:08:46 +0000
+
+clean up
+</content>
+</entry>
+<entry>
+<id>1ef526d6c2ef55b62e153c457b44a7f5cb6c7cc7</id>
+<published>2022-04-13T06:01:20Z</published>
+<updated>2022-04-13T06:01:20Z</updated>
+<title type="text">updating</title>
+<link rel="alternate" type="text/html" href="commit/1ef526d6c2ef55b62e153c457b44a7f5cb6c7cc7.html" />
+<author>
+<name>Erazsher</name>
+<email>83161571+Erazsher@users.noreply.github.com</email>
+</author>
+<content type="text">commit 1ef526d6c2ef55b62e153c457b44a7f5cb6c7cc7
+parent ad16ae3aad8507f44a8afe13cdb7ebeb89f315e0
+Author: Erazsher &lt;83161571+Erazsher@users.noreply.github.com&gt;
+Date:   Wed, 13 Apr 2022 06:01:20 +0000
+
+updating
+</content>
+</entry>
+<entry>
+<id>ad16ae3aad8507f44a8afe13cdb7ebeb89f315e0</id>
+<published>2022-04-13T05:51:31Z</published>
+<updated>2022-04-13T05:51:31Z</updated>
+<title type="text">cleaning</title>
+<link rel="alternate" type="text/html" href="commit/ad16ae3aad8507f44a8afe13cdb7ebeb89f315e0.html" />
+<author>
+<name>Erazsher</name>
+<email>83161571+Erazsher@users.noreply.github.com</email>
+</author>
+<content type="text">commit ad16ae3aad8507f44a8afe13cdb7ebeb89f315e0
+parent 70e609bec36810eef9828b0ce98bc36ecfc09234
+Author: Erazsher &lt;83161571+Erazsher@users.noreply.github.com&gt;
+Date:   Wed, 13 Apr 2022 05:51:31 +0000
+
+cleaning
+</content>
+</entry>
+<entry>
+<id>70e609bec36810eef9828b0ce98bc36ecfc09234</id>
+<published>2022-04-13T05:50:40Z</published>
+<updated>2022-04-13T05:50:40Z</updated>
+<title type="text">cleaning up</title>
+<link rel="alternate" type="text/html" href="commit/70e609bec36810eef9828b0ce98bc36ecfc09234.html" />
+<author>
+<name>Erazsher</name>
+<email>83161571+Erazsher@users.noreply.github.com</email>
+</author>
+<content type="text">commit 70e609bec36810eef9828b0ce98bc36ecfc09234
+parent 9fdcbe8867aa5777b8ed4f4e916320f14638a63f
+Author: Erazsher &lt;83161571+Erazsher@users.noreply.github.com&gt;
+Date:   Wed, 13 Apr 2022 05:50:40 +0000
+
+cleaning up
+</content>
+</entry>
+<entry>
+<id>9fdcbe8867aa5777b8ed4f4e916320f14638a63f</id>
+<published>2022-04-01T13:23:43Z</published>
+<updated>2022-04-01T13:23:43Z</updated>
+<title type="text">small changes</title>
+<link rel="alternate" type="text/html" href="commit/9fdcbe8867aa5777b8ed4f4e916320f14638a63f.html" />
+<author>
+<name>LAANS</name>
+<email>LAANSdeservile@protonmail.com</email>
+</author>
+<content type="text">commit 9fdcbe8867aa5777b8ed4f4e916320f14638a63f
+parent acf059c50b614571986e18fce57b6a3bba1f6638
+Author: LAANS &lt;LAANSdeservile@protonmail.com&gt;
+Date:   Fri,  1 Apr 2022 18:53:43 +0530
+
+small changes
+
+</content>
+</entry>
+<entry>
+<id>acf059c50b614571986e18fce57b6a3bba1f6638</id>
+<published>2022-03-11T16:13:38Z</published>
+<updated>2022-03-11T16:13:38Z</updated>
+<title type="text">update the README.md with link to contributing guide</title>
+<link rel="alternate" type="text/html" href="commit/acf059c50b614571986e18fce57b6a3bba1f6638.html" />
+<author>
+<name>Erazsher</name>
+<email>sebastiense7en@tuta.io</email>
+</author>
+<content type="text">commit acf059c50b614571986e18fce57b6a3bba1f6638
+parent 9a4b9e24c7a7b4fe8008ab925c280610d4d28770
+Author: Erazsher &lt;sebastiense7en@tuta.io&gt;
+Date:   Fri, 11 Mar 2022 21:43:38 +0530
+
+update the README.md with link to contributing guide
+
+</content>
+</entry>
+<entry>
+<id>9a4b9e24c7a7b4fe8008ab925c280610d4d28770</id>
+<published>2022-03-10T09:25:20Z</published>
+<updated>2022-03-10T09:25:20Z</updated>
+<title type="text">Added presentation.</title>
+<link rel="alternate" type="text/html" href="commit/9a4b9e24c7a7b4fe8008ab925c280610d4d28770.html" />
+<author>
+<name>unknown</name>
+<email>LAANSdeservile@protonmail.com</email>
+</author>
+<content type="text">commit 9a4b9e24c7a7b4fe8008ab925c280610d4d28770
+parent c328b7bfef15878fd5ce8fb8163811b0eb10b5ed
+Author: unknown &lt;LAANSdeservile@protonmail.com&gt;
+Date:   Thu, 10 Mar 2022 14:55:20 +0530
+
+Added presentation.
+
+</content>
+</entry>
+<entry>
+<id>c328b7bfef15878fd5ce8fb8163811b0eb10b5ed</id>
+<published>2022-03-08T11:07:38Z</published>
+<updated>2022-03-08T11:07:38Z</updated>
+<title type="text">1st commit</title>
+<link rel="alternate" type="text/html" href="commit/c328b7bfef15878fd5ce8fb8163811b0eb10b5ed.html" />
+<author>
+<name>Erazsher</name>
+<email>83161571+Erazsher@users.noreply.github.com</email>
+</author>
+<content type="text">commit c328b7bfef15878fd5ce8fb8163811b0eb10b5ed
+parent 8d04c00aaef81e9791c0836261010052e122a6f9
+Author: Erazsher &lt;83161571+Erazsher@users.noreply.github.com&gt;
+Date:   Tue,  8 Mar 2022 16:37:38 +0530
+
+1st commit
+</content>
+</entry>
+<entry>
+<id>8d04c00aaef81e9791c0836261010052e122a6f9</id>
+<published>2022-03-08T11:05:29Z</published>
+<updated>2022-03-08T11:05:29Z</updated>
+<title type="text">Delete SR</title>
+<link rel="alternate" type="text/html" href="commit/8d04c00aaef81e9791c0836261010052e122a6f9.html" />
+<author>
+<name>Erazsher</name>
+<email>83161571+Erazsher@users.noreply.github.com</email>
+</author>
+<content type="text">commit 8d04c00aaef81e9791c0836261010052e122a6f9
+parent 88c40f511bbf8aa899d4848e661e4a2440ce7959
+Author: Erazsher &lt;83161571+Erazsher@users.noreply.github.com&gt;
+Date:   Tue,  8 Mar 2022 16:35:29 +0530
+
+Delete SR
+</content>
+</entry>
+<entry>
+<id>88c40f511bbf8aa899d4848e661e4a2440ce7959</id>
+<published>2022-03-08T11:05:17Z</published>
+<updated>2022-03-08T11:05:17Z</updated>
+<title type="text">Delete 01 Cover n Bonified.docx</title>
+<link rel="alternate" type="text/html" href="commit/88c40f511bbf8aa899d4848e661e4a2440ce7959.html" />
+<author>
+<name>Erazsher</name>
+<email>83161571+Erazsher@users.noreply.github.com</email>
+</author>
+<content type="text">commit 88c40f511bbf8aa899d4848e661e4a2440ce7959
+parent 65761653f3f69b7ee0aa3ca386af1f2c8f00f2ef
+Author: Erazsher &lt;83161571+Erazsher@users.noreply.github.com&gt;
+Date:   Tue,  8 Mar 2022 16:35:17 +0530
+
+Delete 01 Cover n Bonified.docx
+</content>
+</entry>
+<entry>
+<id>65761653f3f69b7ee0aa3ca386af1f2c8f00f2ef</id>
+<published>2022-03-08T11:05:00Z</published>
+<updated>2022-03-08T11:05:00Z</updated>
+<title type="text">Seminar report (uncomplete)</title>
+<link rel="alternate" type="text/html" href="commit/65761653f3f69b7ee0aa3ca386af1f2c8f00f2ef.html" />
+<author>
+<name>Erazsher</name>
+<email>83161571+Erazsher@users.noreply.github.com</email>
+</author>
+<content type="text">commit 65761653f3f69b7ee0aa3ca386af1f2c8f00f2ef
+parent 1931eb29f3644e9e5a31f625cfa2cb11da09f051
+Author: Erazsher &lt;83161571+Erazsher@users.noreply.github.com&gt;
+Date:   Tue,  8 Mar 2022 16:35:00 +0530
+
+Seminar report (uncomplete)
+</content>
+</entry>
+<entry>
+<id>1931eb29f3644e9e5a31f625cfa2cb11da09f051</id>
+<published>2022-03-08T11:04:32Z</published>
+<updated>2022-03-08T11:04:32Z</updated>
+<title type="text">Create SR</title>
+<link rel="alternate" type="text/html" href="commit/1931eb29f3644e9e5a31f625cfa2cb11da09f051.html" />
+<author>
+<name>Erazsher</name>
+<email>83161571+Erazsher@users.noreply.github.com</email>
+</author>
+<content type="text">commit 1931eb29f3644e9e5a31f625cfa2cb11da09f051
+parent e5b0715b23e95fb4d0ab73e9bdf9175a5e0a3322
+Author: Erazsher &lt;83161571+Erazsher@users.noreply.github.com&gt;
+Date:   Tue,  8 Mar 2022 16:34:32 +0530
+
+Create SR
+</content>
+</entry>
+<entry>
+<id>e5b0715b23e95fb4d0ab73e9bdf9175a5e0a3322</id>
+<published>2022-03-08T11:03:58Z</published>
+<updated>2022-03-08T11:03:58Z</updated>
+<title type="text">Add files via upload</title>
+<link rel="alternate" type="text/html" href="commit/e5b0715b23e95fb4d0ab73e9bdf9175a5e0a3322.html" />
+<author>
+<name>Erazsher</name>
+<email>83161571+Erazsher@users.noreply.github.com</email>
+</author>
+<content type="text">commit e5b0715b23e95fb4d0ab73e9bdf9175a5e0a3322
+Author: Erazsher &lt;83161571+Erazsher@users.noreply.github.com&gt;
+Date:   Tue,  8 Mar 2022 16:33:58 +0530
+
+Add files via upload
+</content>
+</entry>
+</feed>

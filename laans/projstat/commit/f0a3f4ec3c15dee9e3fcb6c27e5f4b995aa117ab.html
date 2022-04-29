@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>clean up - Project_Yo - Unnamed repository; edit this file &#39;description&#39; to name the repository.
+</title>
+<link rel="icon" type="image/png" href="../favicon.png" />
+<link rel="alternate" type="application/atom+xml" title="Project_Yo Atom Feed" href="../atom.xml" />
+<link rel="alternate" type="application/atom+xml" title="Project_Yo Atom Feed (tags)" href="../tags.xml" />
+<link rel="stylesheet" type="text/css" href="../style.css" />
+</head>
+<body>
+<table><tr><td><a href="../../"><img src="../logo.png" alt="" width="32" height="32" /></a></td><td><h1>Project_Yo</h1><span class="desc">Unnamed repository; edit this file &#39;description&#39; to name the repository.
+</span></td></tr><tr><td></td><td>
+<a href="../log.html">Log</a> | <a href="../files.html">Files</a> | <a href="../refs.html">Refs</a> | <a href="../file/README.md.html">README</a> | <a href="../file/LICENSE.html">LICENSE</a></td></tr></table>
+<hr/>
+<div id="content">
+<pre><b>commit</b> <a href="../commit/f0a3f4ec3c15dee9e3fcb6c27e5f4b995aa117ab.html">f0a3f4ec3c15dee9e3fcb6c27e5f4b995aa117ab</a>
+<b>parent</b> <a href="../commit/1ef526d6c2ef55b62e153c457b44a7f5cb6c7cc7.html">1ef526d6c2ef55b62e153c457b44a7f5cb6c7cc7</a>
+<b>Author:</b> Erazsher &lt;<a href="mailto:83161571+Erazsher@users.noreply.github.com">83161571+Erazsher@users.noreply.github.com</a>&gt;
+<b>Date:</b>   Wed, 13 Apr 2022 06:08:46 +0000
+
+clean up
+<b>Diffstat:</b>
+<table><tr><td class="D">D</td><td><a href="#h0">android/app/build.gradle</a></td><td> | </td><td class="num">71</td><td><span class="i"></span><span class="d">-----------------------------------------------------------------------</span></td></tr>
+<tr><td class="D">D</td><td><a href="#h1">android/app/src/debug/AndroidManifest.xml</a></td><td> | </td><td class="num">8</td><td><span class="i"></span><span class="d">--------</span></td></tr>
+<tr><td class="D">D</td><td><a href="#h2">android/app/src/main/AndroidManifest.xml</a></td><td> | </td><td class="num">34</td><td><span class="i"></span><span class="d">----------------------------------</span></td></tr>
+<tr><td class="D">D</td><td><a href="#h3">android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java</a></td><td> | </td><td class="num">19</td><td><span class="i"></span><span class="d">-------------------</span></td></tr>
+<tr><td class="D">D</td><td><a href="#h4">android/app/src/main/kotlin/com/example/project_app/MainActivity.kt</a></td><td> | </td><td class="num">6</td><td><span class="i"></span><span class="d">------</span></td></tr>
+<tr><td class="D">D</td><td><a href="#h5">android/app/src/main/res/drawable-v21/launch_background.xml</a></td><td> | </td><td class="num">12</td><td><span class="i"></span><span class="d">------------</span></td></tr>
+<tr><td class="D">D</td><td><a href="#h6">android/app/src/main/res/drawable/launch_background.xml</a></td><td> | </td><td class="num">12</td><td><span class="i"></span><span class="d">------------</span></td></tr>
+<tr><td class="D">D</td><td><a href="#h7">android/app/src/main/res/mipmap-hdpi/ic_launcher.png</a></td><td> | </td><td class="num">0</td><td><span class="i"></span><span class="d"></span></td></tr>
+<tr><td class="D">D</td><td><a href="#h8">android/app/src/main/res/mipmap-mdpi/ic_launcher.png</a></td><td> | </td><td class="num">0</td><td><span class="i"></span><span class="d"></span></td></tr>
+<tr><td class="D">D</td><td><a href="#h9">android/app/src/main/res/mipmap-xhdpi/ic_launcher.png</a></td><td> | </td><td class="num">0</td><td><span class="i"></span><span class="d"></span></td></tr>
+<tr><td class="D">D</td><td><a href="#h10">android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png</a></td><td> | </td><td class="num">0</td><td><span class="i"></span><span class="d"></span></td></tr>
+<tr><td class="D">D</td><td><a href="#h11">android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png</a></td><td> | </td><td class="num">0</td><td><span class="i"></span><span class="d"></span></td></tr>
+<tr><td class="D">D</td><td><a href="#h12">android/app/src/main/res/values-night/styles.xml</a></td><td> | </td><td class="num">18</td><td><span class="i"></span><span class="d">------------------</span></td></tr>
+<tr><td class="D">D</td><td><a href="#h13">android/app/src/main/res/values/styles.xml</a></td><td> | </td><td class="num">18</td><td><span class="i"></span><span class="d">------------------</span></td></tr>
+<tr><td class="D">D</td><td><a href="#h14">android/app/src/profile/AndroidManifest.xml</a></td><td> | </td><td class="num">8</td><td><span class="i"></span><span class="d">--------</span></td></tr>
+<tr><td class="D">D</td><td><a href="#h15">android/build.gradle</a></td><td> | </td><td class="num">31</td><td><span class="i"></span><span class="d">-------------------------------</span></td></tr>
+<tr><td class="D">D</td><td><a href="#h16">android/gradle.properties</a></td><td> | </td><td class="num">3</td><td><span class="i"></span><span class="d">---</span></td></tr>
+<tr><td class="D">D</td><td><a href="#h17">android/gradle/wrapper/gradle-wrapper.jar</a></td><td> | </td><td class="num">0</td><td><span class="i"></span><span class="d"></span></td></tr>
+<tr><td class="D">D</td><td><a href="#h18">android/gradle/wrapper/gradle-wrapper.properties</a></td><td> | </td><td class="num">6</td><td><span class="i"></span><span class="d">------</span></td></tr>
+<tr><td class="D">D</td><td><a href="#h19">android/gradlew</a></td><td> | </td><td class="num">160</td><td><span class="i"></span><span class="d">-------------------------------------------------------------------------------</span></td></tr>
+<tr><td class="D">D</td><td><a href="#h20">android/gradlew.bat</a></td><td> | </td><td class="num">90</td><td><span class="i"></span><span class="d">-------------------------------------------------------------------------------</span></td></tr>
+<tr><td class="D">D</td><td><a href="#h21">android/local.properties</a></td><td> | </td><td class="num">3</td><td><span class="i"></span><span class="d">---</span></td></tr>
+<tr><td class="D">D</td><td><a href="#h22">android/project_app_android.iml</a></td><td> | </td><td class="num">29</td><td><span class="i"></span><span class="d">-----------------------------</span></td></tr>
+<tr><td class="D">D</td><td><a href="#h23">android/settings.gradle</a></td><td> | </td><td class="num">11</td><td><span class="i"></span><span class="d">-----------</span></td></tr>
+</table></pre><pre>24 files changed, 0 insertions(+), 539 deletions(-)
+<hr/><b>diff --git a/<a id="h0" href="../file/android/app/build.gradle.html">android/app/build.gradle</a> b/<a href="../file/android/app/build.gradle.html">android/app/build.gradle</a></b>
+<a href="#h0-0" id="h0-0" class="h">@@ -1,71 +0,0 @@
+</a><a href="#h0-0-0" id="h0-0-0" class="d">-def localProperties = new Properties()
+</a><a href="#h0-0-1" id="h0-0-1" class="d">-def localPropertiesFile = rootProject.file(&#39;local.properties&#39;)
+</a><a href="#h0-0-2" id="h0-0-2" class="d">-if (localPropertiesFile.exists()) {
+</a><a href="#h0-0-3" id="h0-0-3" class="d">-    localPropertiesFile.withReader(&#39;UTF-8&#39;) { reader -&gt;
+</a><a href="#h0-0-4" id="h0-0-4" class="d">-        localProperties.load(reader)
+</a><a href="#h0-0-5" id="h0-0-5" class="d">-    }
+</a><a href="#h0-0-6" id="h0-0-6" class="d">-}
+</a><a href="#h0-0-7" id="h0-0-7" class="d">-
+</a><a href="#h0-0-8" id="h0-0-8" class="d">-def flutterRoot = localProperties.getProperty(&#39;flutter.sdk&#39;)
+</a><a href="#h0-0-9" id="h0-0-9" class="d">-if (flutterRoot == null) {
+</a><a href="#h0-0-10" id="h0-0-10" class="d">-    throw new GradleException(&quot;Flutter SDK not found. Define location with flutter.sdk in the local.properties file.&quot;)
+</a><a href="#h0-0-11" id="h0-0-11" class="d">-}
+</a><a href="#h0-0-12" id="h0-0-12" class="d">-
+</a><a href="#h0-0-13" id="h0-0-13" class="d">-def flutterVersionCode = localProperties.getProperty(&#39;flutter.versionCode&#39;)
+</a><a href="#h0-0-14" id="h0-0-14" class="d">-if (flutterVersionCode == null) {
+</a><a href="#h0-0-15" id="h0-0-15" class="d">-    flutterVersionCode = &#39;1&#39;
+</a><a href="#h0-0-16" id="h0-0-16" class="d">-}
+</a><a href="#h0-0-17" id="h0-0-17" class="d">-
+</a><a href="#h0-0-18" id="h0-0-18" class="d">-def flutterVersionName = localProperties.getProperty(&#39;flutter.versionName&#39;)
+</a><a href="#h0-0-19" id="h0-0-19" class="d">-if (flutterVersionName == null) {
+</a><a href="#h0-0-20" id="h0-0-20" class="d">-    flutterVersionName = &#39;1.0&#39;
+</a><a href="#h0-0-21" id="h0-0-21" class="d">-}
+</a><a href="#h0-0-22" id="h0-0-22" class="d">-
+</a><a href="#h0-0-23" id="h0-0-23" class="d">-apply plugin: &#39;com.android.application&#39;
+</a><a href="#h0-0-24" id="h0-0-24" class="d">-apply plugin: &#39;kotlin-android&#39;
+</a><a href="#h0-0-25" id="h0-0-25" class="d">-apply from: &quot;$flutterRoot/packages/flutter_tools/gradle/flutter.gradle&quot;
+</a><a href="#h0-0-26" id="h0-0-26" class="d">-
+</a><a href="#h0-0-27" id="h0-0-27" class="d">-android {
+</a><a href="#h0-0-28" id="h0-0-28" class="d">-    compileSdkVersion flutter.compileSdkVersion
+</a><a href="#h0-0-29" id="h0-0-29" class="d">-    ndkVersion flutter.ndkVersion
+</a><a href="#h0-0-30" id="h0-0-30" class="d">-
+</a><a href="#h0-0-31" id="h0-0-31" class="d">-    compileOptions {
+</a><a href="#h0-0-32" id="h0-0-32" class="d">-        sourceCompatibility JavaVersion.VERSION_1_8
+</a><a href="#h0-0-33" id="h0-0-33" class="d">-        targetCompatibility JavaVersion.VERSION_1_8
+</a><a href="#h0-0-34" id="h0-0-34" class="d">-    }
+</a><a href="#h0-0-35" id="h0-0-35" class="d">-
+</a><a href="#h0-0-36" id="h0-0-36" class="d">-    kotlinOptions {
+</a><a href="#h0-0-37" id="h0-0-37" class="d">-        jvmTarget = &#39;1.8&#39;
+</a><a href="#h0-0-38" id="h0-0-38" class="d">-    }
+</a><a href="#h0-0-39" id="h0-0-39" class="d">-
+</a><a href="#h0-0-40" id="h0-0-40" class="d">-    sourceSets {
+</a><a href="#h0-0-41" id="h0-0-41" class="d">-        main.java.srcDirs += &#39;src/main/kotlin&#39;
+</a><a href="#h0-0-42" id="h0-0-42" class="d">-    }
+</a><a href="#h0-0-43" id="h0-0-43" class="d">-
+</a><a href="#h0-0-44" id="h0-0-44" class="d">-    defaultConfig {
+</a><a href="#h0-0-45" id="h0-0-45" class="d">-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+</a><a href="#h0-0-46" id="h0-0-46" class="d">-        applicationId &quot;com.example.project_app&quot;
+</a><a href="#h0-0-47" id="h0-0-47" class="d">-        // You can update the following values to match your application needs.
+</a><a href="#h0-0-48" id="h0-0-48" class="d">-        // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
+</a><a href="#h0-0-49" id="h0-0-49" class="d">-        minSdkVersion flutter.minSdkVersion
+</a><a href="#h0-0-50" id="h0-0-50" class="d">-        targetSdkVersion flutter.targetSdkVersion
+</a><a href="#h0-0-51" id="h0-0-51" class="d">-        versionCode flutterVersionCode.toInteger()
+</a><a href="#h0-0-52" id="h0-0-52" class="d">-        versionName flutterVersionName
+</a><a href="#h0-0-53" id="h0-0-53" class="d">-    }
+</a><a href="#h0-0-54" id="h0-0-54" class="d">-
+</a><a href="#h0-0-55" id="h0-0-55" class="d">-    buildTypes {
+</a><a href="#h0-0-56" id="h0-0-56" class="d">-        release {
+</a><a href="#h0-0-57" id="h0-0-57" class="d">-            // TODO: Add your own signing config for the release build.
+</a><a href="#h0-0-58" id="h0-0-58" class="d">-            // Signing with the debug keys for now, so `flutter run --release` works.
+</a><a href="#h0-0-59" id="h0-0-59" class="d">-            signingConfig signingConfigs.debug
+</a><a href="#h0-0-60" id="h0-0-60" class="d">-        }
+</a><a href="#h0-0-61" id="h0-0-61" class="d">-    }
+</a><a href="#h0-0-62" id="h0-0-62" class="d">-}
+</a><a href="#h0-0-63" id="h0-0-63" class="d">-
+</a><a href="#h0-0-64" id="h0-0-64" class="d">-flutter {
+</a><a href="#h0-0-65" id="h0-0-65" class="d">-    source &#39;../..&#39;
+</a><a href="#h0-0-66" id="h0-0-66" class="d">-}
+</a><a href="#h0-0-67" id="h0-0-67" class="d">-
+</a><a href="#h0-0-68" id="h0-0-68" class="d">-dependencies {
+</a><a href="#h0-0-69" id="h0-0-69" class="d">-    implementation &quot;org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version&quot;
+</a><a href="#h0-0-70" id="h0-0-70" class="d">-}
+</a><b>diff --git a/<a id="h1" href="../file/android/app/src/debug/AndroidManifest.xml.html">android/app/src/debug/AndroidManifest.xml</a> b/<a href="../file/android/app/src/debug/AndroidManifest.xml.html">android/app/src/debug/AndroidManifest.xml</a></b>
+<a href="#h1-0" id="h1-0" class="h">@@ -1,8 +0,0 @@
+</a><a href="#h1-0-0" id="h1-0-0" class="d">-&lt;manifest xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+</a><a href="#h1-0-1" id="h1-0-1" class="d">-    package=&quot;com.example.project_app&quot;&gt;
+</a><a href="#h1-0-2" id="h1-0-2" class="d">-    &lt;!-- The INTERNET permission is required for development. Specifically,
+</a><a href="#h1-0-3" id="h1-0-3" class="d">-         the Flutter tool needs it to communicate with the running application
+</a><a href="#h1-0-4" id="h1-0-4" class="d">-         to allow setting breakpoints, to provide hot reload, etc.
+</a><a href="#h1-0-5" id="h1-0-5" class="d">-    --&gt;
+</a><a href="#h1-0-6" id="h1-0-6" class="d">-    &lt;uses-permission android:name=&quot;android.permission.INTERNET&quot;/&gt;
+</a><a href="#h1-0-7" id="h1-0-7" class="d">-&lt;/manifest&gt;
+</a><b>diff --git a/<a id="h2" href="../file/android/app/src/main/AndroidManifest.xml.html">android/app/src/main/AndroidManifest.xml</a> b/<a href="../file/android/app/src/main/AndroidManifest.xml.html">android/app/src/main/AndroidManifest.xml</a></b>
+<a href="#h2-0" id="h2-0" class="h">@@ -1,34 +0,0 @@
+</a><a href="#h2-0-0" id="h2-0-0" class="d">-&lt;manifest xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+</a><a href="#h2-0-1" id="h2-0-1" class="d">-    package=&quot;com.example.project_app&quot;&gt;
+</a><a href="#h2-0-2" id="h2-0-2" class="d">-   &lt;application
+</a><a href="#h2-0-3" id="h2-0-3" class="d">-        android:label=&quot;project_app&quot;
+</a><a href="#h2-0-4" id="h2-0-4" class="d">-        android:name=&quot;${applicationName}&quot;
+</a><a href="#h2-0-5" id="h2-0-5" class="d">-        android:icon=&quot;@mipmap/ic_launcher&quot;&gt;
+</a><a href="#h2-0-6" id="h2-0-6" class="d">-        &lt;activity
+</a><a href="#h2-0-7" id="h2-0-7" class="d">-            android:name=&quot;.MainActivity&quot;
+</a><a href="#h2-0-8" id="h2-0-8" class="d">-            android:exported=&quot;true&quot;
+</a><a href="#h2-0-9" id="h2-0-9" class="d">-            android:launchMode=&quot;singleTop&quot;
+</a><a href="#h2-0-10" id="h2-0-10" class="d">-            android:theme=&quot;@style/LaunchTheme&quot;
+</a><a href="#h2-0-11" id="h2-0-11" class="d">-            android:configChanges=&quot;orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode&quot;
+</a><a href="#h2-0-12" id="h2-0-12" class="d">-            android:hardwareAccelerated=&quot;true&quot;
+</a><a href="#h2-0-13" id="h2-0-13" class="d">-            android:windowSoftInputMode=&quot;adjustResize&quot;&gt;
+</a><a href="#h2-0-14" id="h2-0-14" class="d">-            &lt;!-- Specifies an Android theme to apply to this Activity as soon as
+</a><a href="#h2-0-15" id="h2-0-15" class="d">-                 the Android process has started. This theme is visible to the user
+</a><a href="#h2-0-16" id="h2-0-16" class="d">-                 while the Flutter UI initializes. After that, this theme continues
+</a><a href="#h2-0-17" id="h2-0-17" class="d">-                 to determine the Window background behind the Flutter UI. --&gt;
+</a><a href="#h2-0-18" id="h2-0-18" class="d">-            &lt;meta-data
+</a><a href="#h2-0-19" id="h2-0-19" class="d">-              android:name=&quot;io.flutter.embedding.android.NormalTheme&quot;
+</a><a href="#h2-0-20" id="h2-0-20" class="d">-              android:resource=&quot;@style/NormalTheme&quot;
+</a><a href="#h2-0-21" id="h2-0-21" class="d">-              /&gt;
+</a><a href="#h2-0-22" id="h2-0-22" class="d">-            &lt;intent-filter&gt;
+</a><a href="#h2-0-23" id="h2-0-23" class="d">-                &lt;action android:name=&quot;android.intent.action.MAIN&quot;/&gt;
+</a><a href="#h2-0-24" id="h2-0-24" class="d">-                &lt;category android:name=&quot;android.intent.category.LAUNCHER&quot;/&gt;
+</a><a href="#h2-0-25" id="h2-0-25" class="d">-            &lt;/intent-filter&gt;
+</a><a href="#h2-0-26" id="h2-0-26" class="d">-        &lt;/activity&gt;
+</a><a href="#h2-0-27" id="h2-0-27" class="d">-        &lt;!-- Don&#39;t delete the meta-data below.
+</a><a href="#h2-0-28" id="h2-0-28" class="d">-             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java --&gt;
+</a><a href="#h2-0-29" id="h2-0-29" class="d">-        &lt;meta-data
+</a><a href="#h2-0-30" id="h2-0-30" class="d">-            android:name=&quot;flutterEmbedding&quot;
+</a><a href="#h2-0-31" id="h2-0-31" class="d">-            android:value=&quot;2&quot; /&gt;
+</a><a href="#h2-0-32" id="h2-0-32" class="d">-    &lt;/application&gt;
+</a><a href="#h2-0-33" id="h2-0-33" class="d">-&lt;/manifest&gt;
+</a><b>diff --git a/<a id="h3" href="../file/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java.html">android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java</a> b/<a href="../file/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java.html">android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java</a></b>
+<a href="#h3-0" id="h3-0" class="h">@@ -1,19 +0,0 @@
+</a><a href="#h3-0-0" id="h3-0-0" class="d">-package io.flutter.plugins;
+</a><a href="#h3-0-1" id="h3-0-1" class="d">-
+</a><a href="#h3-0-2" id="h3-0-2" class="d">-import androidx.annotation.Keep;
+</a><a href="#h3-0-3" id="h3-0-3" class="d">-import androidx.annotation.NonNull;
+</a><a href="#h3-0-4" id="h3-0-4" class="d">-import io.flutter.Log;
+</a><a href="#h3-0-5" id="h3-0-5" class="d">-
+</a><a href="#h3-0-6" id="h3-0-6" class="d">-import io.flutter.embedding.engine.FlutterEngine;
+</a><a href="#h3-0-7" id="h3-0-7" class="d">-
+</a><a href="#h3-0-8" id="h3-0-8" class="d">-/**
+</a><a href="#h3-0-9" id="h3-0-9" class="d">- * Generated file. Do not edit.
+</a><a href="#h3-0-10" id="h3-0-10" class="d">- * This file is generated by the Flutter tool based on the
+</a><a href="#h3-0-11" id="h3-0-11" class="d">- * plugins that support the Android platform.
+</a><a href="#h3-0-12" id="h3-0-12" class="d">- */
+</a><a href="#h3-0-13" id="h3-0-13" class="d">-@Keep
+</a><a href="#h3-0-14" id="h3-0-14" class="d">-public final class GeneratedPluginRegistrant {
+</a><a href="#h3-0-15" id="h3-0-15" class="d">-  private static final String TAG = &quot;GeneratedPluginRegistrant&quot;;
+</a><a href="#h3-0-16" id="h3-0-16" class="d">-  public static void registerWith(@NonNull FlutterEngine flutterEngine) {
+</a><a href="#h3-0-17" id="h3-0-17" class="d">-  }
+</a><a href="#h3-0-18" id="h3-0-18" class="d">-}
+</a><b>diff --git a/<a id="h4" href="../file/android/app/src/main/kotlin/com/example/project_app/MainActivity.kt.html">android/app/src/main/kotlin/com/example/project_app/MainActivity.kt</a> b/<a href="../file/android/app/src/main/kotlin/com/example/project_app/MainActivity.kt.html">android/app/src/main/kotlin/com/example/project_app/MainActivity.kt</a></b>
+<a href="#h4-0" id="h4-0" class="h">@@ -1,6 +0,0 @@
+</a><a href="#h4-0-0" id="h4-0-0" class="d">-package com.example.project_app
+</a><a href="#h4-0-1" id="h4-0-1" class="d">-
+</a><a href="#h4-0-2" id="h4-0-2" class="d">-import io.flutter.embedding.android.FlutterActivity
+</a><a href="#h4-0-3" id="h4-0-3" class="d">-
+</a><a href="#h4-0-4" id="h4-0-4" class="d">-class MainActivity: FlutterActivity() {
+</a><a href="#h4-0-5" id="h4-0-5" class="d">-}
+</a><b>diff --git a/<a id="h5" href="../file/android/app/src/main/res/drawable-v21/launch_background.xml.html">android/app/src/main/res/drawable-v21/launch_background.xml</a> b/<a href="../file/android/app/src/main/res/drawable-v21/launch_background.xml.html">android/app/src/main/res/drawable-v21/launch_background.xml</a></b>
+<a href="#h5-0" id="h5-0" class="h">@@ -1,12 +0,0 @@
+</a><a href="#h5-0-0" id="h5-0-0" class="d">-&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+</a><a href="#h5-0-1" id="h5-0-1" class="d">-&lt;!-- Modify this file to customize your launch splash screen --&gt;
+</a><a href="#h5-0-2" id="h5-0-2" class="d">-&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;
+</a><a href="#h5-0-3" id="h5-0-3" class="d">-    &lt;item android:drawable=&quot;?android:colorBackground&quot; /&gt;
+</a><a href="#h5-0-4" id="h5-0-4" class="d">-
+</a><a href="#h5-0-5" id="h5-0-5" class="d">-    &lt;!-- You can insert your own image assets here --&gt;
+</a><a href="#h5-0-6" id="h5-0-6" class="d">-    &lt;!-- &lt;item&gt;
+</a><a href="#h5-0-7" id="h5-0-7" class="d">-        &lt;bitmap
+</a><a href="#h5-0-8" id="h5-0-8" class="d">-            android:gravity=&quot;center&quot;
+</a><a href="#h5-0-9" id="h5-0-9" class="d">-            android:src=&quot;@mipmap/launch_image&quot; /&gt;
+</a><a href="#h5-0-10" id="h5-0-10" class="d">-    &lt;/item&gt; --&gt;
+</a><a href="#h5-0-11" id="h5-0-11" class="d">-&lt;/layer-list&gt;
+</a><b>diff --git a/<a id="h6" href="../file/android/app/src/main/res/drawable/launch_background.xml.html">android/app/src/main/res/drawable/launch_background.xml</a> b/<a href="../file/android/app/src/main/res/drawable/launch_background.xml.html">android/app/src/main/res/drawable/launch_background.xml</a></b>
+<a href="#h6-0" id="h6-0" class="h">@@ -1,12 +0,0 @@
+</a><a href="#h6-0-0" id="h6-0-0" class="d">-&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+</a><a href="#h6-0-1" id="h6-0-1" class="d">-&lt;!-- Modify this file to customize your launch splash screen --&gt;
+</a><a href="#h6-0-2" id="h6-0-2" class="d">-&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;
+</a><a href="#h6-0-3" id="h6-0-3" class="d">-    &lt;item android:drawable=&quot;@android:color/white&quot; /&gt;
+</a><a href="#h6-0-4" id="h6-0-4" class="d">-
+</a><a href="#h6-0-5" id="h6-0-5" class="d">-    &lt;!-- You can insert your own image assets here --&gt;
+</a><a href="#h6-0-6" id="h6-0-6" class="d">-    &lt;!-- &lt;item&gt;
+</a><a href="#h6-0-7" id="h6-0-7" class="d">-        &lt;bitmap
+</a><a href="#h6-0-8" id="h6-0-8" class="d">-            android:gravity=&quot;center&quot;
+</a><a href="#h6-0-9" id="h6-0-9" class="d">-            android:src=&quot;@mipmap/launch_image&quot; /&gt;
+</a><a href="#h6-0-10" id="h6-0-10" class="d">-    &lt;/item&gt; --&gt;
+</a><a href="#h6-0-11" id="h6-0-11" class="d">-&lt;/layer-list&gt;
+</a><b>diff --git a/<a id="h7" href="../file/android/app/src/main/res/mipmap-hdpi/ic_launcher.png.html">android/app/src/main/res/mipmap-hdpi/ic_launcher.png</a> b/<a href="../file/android/app/src/main/res/mipmap-hdpi/ic_launcher.png.html">android/app/src/main/res/mipmap-hdpi/ic_launcher.png</a></b>
+Binary files differ.
+<b>diff --git a/<a id="h8" href="../file/android/app/src/main/res/mipmap-mdpi/ic_launcher.png.html">android/app/src/main/res/mipmap-mdpi/ic_launcher.png</a> b/<a href="../file/android/app/src/main/res/mipmap-mdpi/ic_launcher.png.html">android/app/src/main/res/mipmap-mdpi/ic_launcher.png</a></b>
+Binary files differ.
+<b>diff --git a/<a id="h9" href="../file/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png.html">android/app/src/main/res/mipmap-xhdpi/ic_launcher.png</a> b/<a href="../file/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png.html">android/app/src/main/res/mipmap-xhdpi/ic_launcher.png</a></b>
+Binary files differ.
+<b>diff --git a/<a id="h10" href="../file/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png.html">android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png</a> b/<a href="../file/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png.html">android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png</a></b>
+Binary files differ.
+<b>diff --git a/<a id="h11" href="../file/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png.html">android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png</a> b/<a href="../file/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png.html">android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png</a></b>
+Binary files differ.
+<b>diff --git a/<a id="h12" href="../file/android/app/src/main/res/values-night/styles.xml.html">android/app/src/main/res/values-night/styles.xml</a> b/<a href="../file/android/app/src/main/res/values-night/styles.xml.html">android/app/src/main/res/values-night/styles.xml</a></b>
+<a href="#h12-0" id="h12-0" class="h">@@ -1,18 +0,0 @@
+</a><a href="#h12-0-0" id="h12-0-0" class="d">-&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+</a><a href="#h12-0-1" id="h12-0-1" class="d">-&lt;resources&gt;
+</a><a href="#h12-0-2" id="h12-0-2" class="d">-    &lt;!-- Theme applied to the Android Window while the process is starting when the OS&#39;s Dark Mode setting is on --&gt;
+</a><a href="#h12-0-3" id="h12-0-3" class="d">-    &lt;style name=&quot;LaunchTheme&quot; parent=&quot;@android:style/Theme.Black.NoTitleBar&quot;&gt;
+</a><a href="#h12-0-4" id="h12-0-4" class="d">-        &lt;!-- Show a splash screen on the activity. Automatically removed when
+</a><a href="#h12-0-5" id="h12-0-5" class="d">-             the Flutter engine draws its first frame --&gt;
+</a><a href="#h12-0-6" id="h12-0-6" class="d">-        &lt;item name=&quot;android:windowBackground&quot;&gt;@drawable/launch_background&lt;/item&gt;
+</a><a href="#h12-0-7" id="h12-0-7" class="d">-    &lt;/style&gt;
+</a><a href="#h12-0-8" id="h12-0-8" class="d">-    &lt;!-- Theme applied to the Android Window as soon as the process has started.
+</a><a href="#h12-0-9" id="h12-0-9" class="d">-         This theme determines the color of the Android Window while your
+</a><a href="#h12-0-10" id="h12-0-10" class="d">-         Flutter UI initializes, as well as behind your Flutter UI while its
+</a><a href="#h12-0-11" id="h12-0-11" class="d">-         running.
+</a><a href="#h12-0-12" id="h12-0-12" class="d">-
+</a><a href="#h12-0-13" id="h12-0-13" class="d">-         This Theme is only used starting with V2 of Flutter&#39;s Android embedding. --&gt;
+</a><a href="#h12-0-14" id="h12-0-14" class="d">-    &lt;style name=&quot;NormalTheme&quot; parent=&quot;@android:style/Theme.Black.NoTitleBar&quot;&gt;
+</a><a href="#h12-0-15" id="h12-0-15" class="d">-        &lt;item name=&quot;android:windowBackground&quot;&gt;?android:colorBackground&lt;/item&gt;
+</a><a href="#h12-0-16" id="h12-0-16" class="d">-    &lt;/style&gt;
+</a><a href="#h12-0-17" id="h12-0-17" class="d">-&lt;/resources&gt;
+</a><b>diff --git a/<a id="h13" href="../file/android/app/src/main/res/values/styles.xml.html">android/app/src/main/res/values/styles.xml</a> b/<a href="../file/android/app/src/main/res/values/styles.xml.html">android/app/src/main/res/values/styles.xml</a></b>
+<a href="#h13-0" id="h13-0" class="h">@@ -1,18 +0,0 @@
+</a><a href="#h13-0-0" id="h13-0-0" class="d">-&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+</a><a href="#h13-0-1" id="h13-0-1" class="d">-&lt;resources&gt;
+</a><a href="#h13-0-2" id="h13-0-2" class="d">-    &lt;!-- Theme applied to the Android Window while the process is starting when the OS&#39;s Dark Mode setting is off --&gt;
+</a><a href="#h13-0-3" id="h13-0-3" class="d">-    &lt;style name=&quot;LaunchTheme&quot; parent=&quot;@android:style/Theme.Light.NoTitleBar&quot;&gt;
+</a><a href="#h13-0-4" id="h13-0-4" class="d">-        &lt;!-- Show a splash screen on the activity. Automatically removed when
+</a><a href="#h13-0-5" id="h13-0-5" class="d">-             the Flutter engine draws its first frame --&gt;
+</a><a href="#h13-0-6" id="h13-0-6" class="d">-        &lt;item name=&quot;android:windowBackground&quot;&gt;@drawable/launch_background&lt;/item&gt;
+</a><a href="#h13-0-7" id="h13-0-7" class="d">-    &lt;/style&gt;
+</a><a href="#h13-0-8" id="h13-0-8" class="d">-    &lt;!-- Theme applied to the Android Window as soon as the process has started.
+</a><a href="#h13-0-9" id="h13-0-9" class="d">-         This theme determines the color of the Android Window while your
+</a><a href="#h13-0-10" id="h13-0-10" class="d">-         Flutter UI initializes, as well as behind your Flutter UI while its
+</a><a href="#h13-0-11" id="h13-0-11" class="d">-         running.
+</a><a href="#h13-0-12" id="h13-0-12" class="d">-
+</a><a href="#h13-0-13" id="h13-0-13" class="d">-         This Theme is only used starting with V2 of Flutter&#39;s Android embedding. --&gt;
+</a><a href="#h13-0-14" id="h13-0-14" class="d">-    &lt;style name=&quot;NormalTheme&quot; parent=&quot;@android:style/Theme.Light.NoTitleBar&quot;&gt;
+</a><a href="#h13-0-15" id="h13-0-15" class="d">-        &lt;item name=&quot;android:windowBackground&quot;&gt;?android:colorBackground&lt;/item&gt;
+</a><a href="#h13-0-16" id="h13-0-16" class="d">-    &lt;/style&gt;
+</a><a href="#h13-0-17" id="h13-0-17" class="d">-&lt;/resources&gt;
+</a><b>diff --git a/<a id="h14" href="../file/android/app/src/profile/AndroidManifest.xml.html">android/app/src/profile/AndroidManifest.xml</a> b/<a href="../file/android/app/src/profile/AndroidManifest.xml.html">android/app/src/profile/AndroidManifest.xml</a></b>
+<a href="#h14-0" id="h14-0" class="h">@@ -1,8 +0,0 @@
+</a><a href="#h14-0-0" id="h14-0-0" class="d">-&lt;manifest xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+</a><a href="#h14-0-1" id="h14-0-1" class="d">-    package=&quot;com.example.project_app&quot;&gt;
+</a><a href="#h14-0-2" id="h14-0-2" class="d">-    &lt;!-- The INTERNET permission is required for development. Specifically,
+</a><a href="#h14-0-3" id="h14-0-3" class="d">-         the Flutter tool needs it to communicate with the running application
+</a><a href="#h14-0-4" id="h14-0-4" class="d">-         to allow setting breakpoints, to provide hot reload, etc.
+</a><a href="#h14-0-5" id="h14-0-5" class="d">-    --&gt;
+</a><a href="#h14-0-6" id="h14-0-6" class="d">-    &lt;uses-permission android:name=&quot;android.permission.INTERNET&quot;/&gt;
+</a><a href="#h14-0-7" id="h14-0-7" class="d">-&lt;/manifest&gt;
+</a><b>diff --git a/<a id="h15" href="../file/android/build.gradle.html">android/build.gradle</a> b/<a href="../file/android/build.gradle.html">android/build.gradle</a></b>
+<a href="#h15-0" id="h15-0" class="h">@@ -1,31 +0,0 @@
+</a><a href="#h15-0-0" id="h15-0-0" class="d">-buildscript {
+</a><a href="#h15-0-1" id="h15-0-1" class="d">-    ext.kotlin_version = &#39;1.6.10&#39;
+</a><a href="#h15-0-2" id="h15-0-2" class="d">-    repositories {
+</a><a href="#h15-0-3" id="h15-0-3" class="d">-        google()
+</a><a href="#h15-0-4" id="h15-0-4" class="d">-        mavenCentral()
+</a><a href="#h15-0-5" id="h15-0-5" class="d">-    }
+</a><a href="#h15-0-6" id="h15-0-6" class="d">-
+</a><a href="#h15-0-7" id="h15-0-7" class="d">-    dependencies {
+</a><a href="#h15-0-8" id="h15-0-8" class="d">-        classpath &#39;com.android.tools.build:gradle:7.1.2&#39;
+</a><a href="#h15-0-9" id="h15-0-9" class="d">-        classpath &quot;org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version&quot;
+</a><a href="#h15-0-10" id="h15-0-10" class="d">-    }
+</a><a href="#h15-0-11" id="h15-0-11" class="d">-}
+</a><a href="#h15-0-12" id="h15-0-12" class="d">-
+</a><a href="#h15-0-13" id="h15-0-13" class="d">-allprojects {
+</a><a href="#h15-0-14" id="h15-0-14" class="d">-    repositories {
+</a><a href="#h15-0-15" id="h15-0-15" class="d">-        google()
+</a><a href="#h15-0-16" id="h15-0-16" class="d">-        mavenCentral()
+</a><a href="#h15-0-17" id="h15-0-17" class="d">-    }
+</a><a href="#h15-0-18" id="h15-0-18" class="d">-}
+</a><a href="#h15-0-19" id="h15-0-19" class="d">-
+</a><a href="#h15-0-20" id="h15-0-20" class="d">-rootProject.buildDir = &#39;../build&#39;
+</a><a href="#h15-0-21" id="h15-0-21" class="d">-subprojects {
+</a><a href="#h15-0-22" id="h15-0-22" class="d">-    project.buildDir = &quot;${rootProject.buildDir}/${project.name}&quot;
+</a><a href="#h15-0-23" id="h15-0-23" class="d">-}
+</a><a href="#h15-0-24" id="h15-0-24" class="d">-subprojects {
+</a><a href="#h15-0-25" id="h15-0-25" class="d">-    project.evaluationDependsOn(&#39;:app&#39;)
+</a><a href="#h15-0-26" id="h15-0-26" class="d">-}
+</a><a href="#h15-0-27" id="h15-0-27" class="d">-
+</a><a href="#h15-0-28" id="h15-0-28" class="d">-task clean(type: Delete) {
+</a><a href="#h15-0-29" id="h15-0-29" class="d">-    delete rootProject.buildDir
+</a><a href="#h15-0-30" id="h15-0-30" class="d">-}
+</a><b>diff --git a/<a id="h16" href="../file/android/gradle.properties.html">android/gradle.properties</a> b/<a href="../file/android/gradle.properties.html">android/gradle.properties</a></b>
+<a href="#h16-0" id="h16-0" class="h">@@ -1,3 +0,0 @@
+</a><a href="#h16-0-0" id="h16-0-0" class="d">-org.gradle.jvmargs=-Xmx1536M
+</a><a href="#h16-0-1" id="h16-0-1" class="d">-android.useAndroidX=true
+</a><a href="#h16-0-2" id="h16-0-2" class="d">-android.enableJetifier=true
+</a><b>diff --git a/<a id="h17" href="../file/android/gradle/wrapper/gradle-wrapper.jar.html">android/gradle/wrapper/gradle-wrapper.jar</a> b/<a href="../file/android/gradle/wrapper/gradle-wrapper.jar.html">android/gradle/wrapper/gradle-wrapper.jar</a></b>
+Binary files differ.
+<b>diff --git a/<a id="h18" href="../file/android/gradle/wrapper/gradle-wrapper.properties.html">android/gradle/wrapper/gradle-wrapper.properties</a> b/<a href="../file/android/gradle/wrapper/gradle-wrapper.properties.html">android/gradle/wrapper/gradle-wrapper.properties</a></b>
+<a href="#h18-0" id="h18-0" class="h">@@ -1,6 +0,0 @@
+</a><a href="#h18-0-0" id="h18-0-0" class="d">-#Fri Jun 23 08:50:38 CEST 2017
+</a><a href="#h18-0-1" id="h18-0-1" class="d">-distributionBase=GRADLE_USER_HOME
+</a><a href="#h18-0-2" id="h18-0-2" class="d">-distributionPath=wrapper/dists
+</a><a href="#h18-0-3" id="h18-0-3" class="d">-zipStoreBase=GRADLE_USER_HOME
+</a><a href="#h18-0-4" id="h18-0-4" class="d">-zipStorePath=wrapper/dists
+</a><a href="#h18-0-5" id="h18-0-5" class="d">-distributionUrl=https\://services.gradle.org/distributions/gradle-7.4-all.zip
+</a><b>diff --git a/<a id="h19" href="../file/android/gradlew.html">android/gradlew</a> b/<a href="../file/android/gradlew.html">android/gradlew</a></b>
+<a href="#h19-0" id="h19-0" class="h">@@ -1,160 +0,0 @@
+</a><a href="#h19-0-0" id="h19-0-0" class="d">-#!/usr/bin/env bash
+</a><a href="#h19-0-1" id="h19-0-1" class="d">-
+</a><a href="#h19-0-2" id="h19-0-2" class="d">-##############################################################################
+</a><a href="#h19-0-3" id="h19-0-3" class="d">-##
+</a><a href="#h19-0-4" id="h19-0-4" class="d">-##  Gradle start up script for UN*X
+</a><a href="#h19-0-5" id="h19-0-5" class="d">-##
+</a><a href="#h19-0-6" id="h19-0-6" class="d">-##############################################################################
+</a><a href="#h19-0-7" id="h19-0-7" class="d">-
+</a><a href="#h19-0-8" id="h19-0-8" class="d">-# Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
+</a><a href="#h19-0-9" id="h19-0-9" class="d">-DEFAULT_JVM_OPTS=&quot;&quot;
+</a><a href="#h19-0-10" id="h19-0-10" class="d">-
+</a><a href="#h19-0-11" id="h19-0-11" class="d">-APP_NAME=&quot;Gradle&quot;
+</a><a href="#h19-0-12" id="h19-0-12" class="d">-APP_BASE_NAME=`basename &quot;$0&quot;`
+</a><a href="#h19-0-13" id="h19-0-13" class="d">-
+</a><a href="#h19-0-14" id="h19-0-14" class="d">-# Use the maximum available, or set MAX_FD != -1 to use that value.
+</a><a href="#h19-0-15" id="h19-0-15" class="d">-MAX_FD=&quot;maximum&quot;
+</a><a href="#h19-0-16" id="h19-0-16" class="d">-
+</a><a href="#h19-0-17" id="h19-0-17" class="d">-warn ( ) {
+</a><a href="#h19-0-18" id="h19-0-18" class="d">-    echo &quot;$*&quot;
+</a><a href="#h19-0-19" id="h19-0-19" class="d">-}
+</a><a href="#h19-0-20" id="h19-0-20" class="d">-
+</a><a href="#h19-0-21" id="h19-0-21" class="d">-die ( ) {
+</a><a href="#h19-0-22" id="h19-0-22" class="d">-    echo
+</a><a href="#h19-0-23" id="h19-0-23" class="d">-    echo &quot;$*&quot;
+</a><a href="#h19-0-24" id="h19-0-24" class="d">-    echo
+</a><a href="#h19-0-25" id="h19-0-25" class="d">-    exit 1
+</a><a href="#h19-0-26" id="h19-0-26" class="d">-}
+</a><a href="#h19-0-27" id="h19-0-27" class="d">-
+</a><a href="#h19-0-28" id="h19-0-28" class="d">-# OS specific support (must be &#39;true&#39; or &#39;false&#39;).
+</a><a href="#h19-0-29" id="h19-0-29" class="d">-cygwin=false
+</a><a href="#h19-0-30" id="h19-0-30" class="d">-msys=false
+</a><a href="#h19-0-31" id="h19-0-31" class="d">-darwin=false
+</a><a href="#h19-0-32" id="h19-0-32" class="d">-case &quot;`uname`&quot; in
+</a><a href="#h19-0-33" id="h19-0-33" class="d">-  CYGWIN* )
+</a><a href="#h19-0-34" id="h19-0-34" class="d">-    cygwin=true
+</a><a href="#h19-0-35" id="h19-0-35" class="d">-    ;;
+</a><a href="#h19-0-36" id="h19-0-36" class="d">-  Darwin* )
+</a><a href="#h19-0-37" id="h19-0-37" class="d">-    darwin=true
+</a><a href="#h19-0-38" id="h19-0-38" class="d">-    ;;
+</a><a href="#h19-0-39" id="h19-0-39" class="d">-  MINGW* )
+</a><a href="#h19-0-40" id="h19-0-40" class="d">-    msys=true
+</a><a href="#h19-0-41" id="h19-0-41" class="d">-    ;;
+</a><a href="#h19-0-42" id="h19-0-42" class="d">-esac
+</a><a href="#h19-0-43" id="h19-0-43" class="d">-
+</a><a href="#h19-0-44" id="h19-0-44" class="d">-# Attempt to set APP_HOME
+</a><a href="#h19-0-45" id="h19-0-45" class="d">-# Resolve links: $0 may be a link
+</a><a href="#h19-0-46" id="h19-0-46" class="d">-PRG=&quot;$0&quot;
+</a><a href="#h19-0-47" id="h19-0-47" class="d">-# Need this for relative symlinks.
+</a><a href="#h19-0-48" id="h19-0-48" class="d">-while [ -h &quot;$PRG&quot; ] ; do
+</a><a href="#h19-0-49" id="h19-0-49" class="d">-    ls=`ls -ld &quot;$PRG&quot;`
+</a><a href="#h19-0-50" id="h19-0-50" class="d">-    link=`expr &quot;$ls&quot; : &#39;.*-&gt; \(.*\)$&#39;`
+</a><a href="#h19-0-51" id="h19-0-51" class="d">-    if expr &quot;$link&quot; : &#39;/.*&#39; &gt; /dev/null; then
+</a><a href="#h19-0-52" id="h19-0-52" class="d">-        PRG=&quot;$link&quot;
+</a><a href="#h19-0-53" id="h19-0-53" class="d">-    else
+</a><a href="#h19-0-54" id="h19-0-54" class="d">-        PRG=`dirname &quot;$PRG&quot;`&quot;/$link&quot;
+</a><a href="#h19-0-55" id="h19-0-55" class="d">-    fi
+</a><a href="#h19-0-56" id="h19-0-56" class="d">-done
+</a><a href="#h19-0-57" id="h19-0-57" class="d">-SAVED=&quot;`pwd`&quot;
+</a><a href="#h19-0-58" id="h19-0-58" class="d">-cd &quot;`dirname \&quot;$PRG\&quot;`/&quot; &gt;/dev/null
+</a><a href="#h19-0-59" id="h19-0-59" class="d">-APP_HOME=&quot;`pwd -P`&quot;
+</a><a href="#h19-0-60" id="h19-0-60" class="d">-cd &quot;$SAVED&quot; &gt;/dev/null
+</a><a href="#h19-0-61" id="h19-0-61" class="d">-
+</a><a href="#h19-0-62" id="h19-0-62" class="d">-CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
+</a><a href="#h19-0-63" id="h19-0-63" class="d">-
+</a><a href="#h19-0-64" id="h19-0-64" class="d">-# Determine the Java command to use to start the JVM.
+</a><a href="#h19-0-65" id="h19-0-65" class="d">-if [ -n &quot;$JAVA_HOME&quot; ] ; then
+</a><a href="#h19-0-66" id="h19-0-66" class="d">-    if [ -x &quot;$JAVA_HOME/jre/sh/java&quot; ] ; then
+</a><a href="#h19-0-67" id="h19-0-67" class="d">-        # IBM&#39;s JDK on AIX uses strange locations for the executables
+</a><a href="#h19-0-68" id="h19-0-68" class="d">-        JAVACMD=&quot;$JAVA_HOME/jre/sh/java&quot;
+</a><a href="#h19-0-69" id="h19-0-69" class="d">-    else
+</a><a href="#h19-0-70" id="h19-0-70" class="d">-        JAVACMD=&quot;$JAVA_HOME/bin/java&quot;
+</a><a href="#h19-0-71" id="h19-0-71" class="d">-    fi
+</a><a href="#h19-0-72" id="h19-0-72" class="d">-    if [ ! -x &quot;$JAVACMD&quot; ] ; then
+</a><a href="#h19-0-73" id="h19-0-73" class="d">-        die &quot;ERROR: JAVA_HOME is set to an invalid directory: $JAVA_HOME
+</a><a href="#h19-0-74" id="h19-0-74" class="d">-
+</a><a href="#h19-0-75" id="h19-0-75" class="d">-Please set the JAVA_HOME variable in your environment to match the
+</a><a href="#h19-0-76" id="h19-0-76" class="d">-location of your Java installation.&quot;
+</a><a href="#h19-0-77" id="h19-0-77" class="d">-    fi
+</a><a href="#h19-0-78" id="h19-0-78" class="d">-else
+</a><a href="#h19-0-79" id="h19-0-79" class="d">-    JAVACMD=&quot;java&quot;
+</a><a href="#h19-0-80" id="h19-0-80" class="d">-    which java &gt;/dev/null 2&gt;&amp;1 || die &quot;ERROR: JAVA_HOME is not set and no &#39;java&#39; command could be found in your PATH.
+</a><a href="#h19-0-81" id="h19-0-81" class="d">-
+</a><a href="#h19-0-82" id="h19-0-82" class="d">-Please set the JAVA_HOME variable in your environment to match the
+</a><a href="#h19-0-83" id="h19-0-83" class="d">-location of your Java installation.&quot;
+</a><a href="#h19-0-84" id="h19-0-84" class="d">-fi
+</a><a href="#h19-0-85" id="h19-0-85" class="d">-
+</a><a href="#h19-0-86" id="h19-0-86" class="d">-# Increase the maximum file descriptors if we can.
+</a><a href="#h19-0-87" id="h19-0-87" class="d">-if [ &quot;$cygwin&quot; = &quot;false&quot; -a &quot;$darwin&quot; = &quot;false&quot; ] ; then
+</a><a href="#h19-0-88" id="h19-0-88" class="d">-    MAX_FD_LIMIT=`ulimit -H -n`
+</a><a href="#h19-0-89" id="h19-0-89" class="d">-    if [ $? -eq 0 ] ; then
+</a><a href="#h19-0-90" id="h19-0-90" class="d">-        if [ &quot;$MAX_FD&quot; = &quot;maximum&quot; -o &quot;$MAX_FD&quot; = &quot;max&quot; ] ; then
+</a><a href="#h19-0-91" id="h19-0-91" class="d">-            MAX_FD=&quot;$MAX_FD_LIMIT&quot;
+</a><a href="#h19-0-92" id="h19-0-92" class="d">-        fi
+</a><a href="#h19-0-93" id="h19-0-93" class="d">-        ulimit -n $MAX_FD
+</a><a href="#h19-0-94" id="h19-0-94" class="d">-        if [ $? -ne 0 ] ; then
+</a><a href="#h19-0-95" id="h19-0-95" class="d">-            warn &quot;Could not set maximum file descriptor limit: $MAX_FD&quot;
+</a><a href="#h19-0-96" id="h19-0-96" class="d">-        fi
+</a><a href="#h19-0-97" id="h19-0-97" class="d">-    else
+</a><a href="#h19-0-98" id="h19-0-98" class="d">-        warn &quot;Could not query maximum file descriptor limit: $MAX_FD_LIMIT&quot;
+</a><a href="#h19-0-99" id="h19-0-99" class="d">-    fi
+</a><a href="#h19-0-100" id="h19-0-100" class="d">-fi
+</a><a href="#h19-0-101" id="h19-0-101" class="d">-
+</a><a href="#h19-0-102" id="h19-0-102" class="d">-# For Darwin, add options to specify how the application appears in the dock
+</a><a href="#h19-0-103" id="h19-0-103" class="d">-if $darwin; then
+</a><a href="#h19-0-104" id="h19-0-104" class="d">-    GRADLE_OPTS=&quot;$GRADLE_OPTS \&quot;-Xdock:name=$APP_NAME\&quot; \&quot;-Xdock:icon=$APP_HOME/media/gradle.icns\&quot;&quot;
+</a><a href="#h19-0-105" id="h19-0-105" class="d">-fi
+</a><a href="#h19-0-106" id="h19-0-106" class="d">-
+</a><a href="#h19-0-107" id="h19-0-107" class="d">-# For Cygwin, switch paths to Windows format before running java
+</a><a href="#h19-0-108" id="h19-0-108" class="d">-if $cygwin ; then
+</a><a href="#h19-0-109" id="h19-0-109" class="d">-    APP_HOME=`cygpath --path --mixed &quot;$APP_HOME&quot;`
+</a><a href="#h19-0-110" id="h19-0-110" class="d">-    CLASSPATH=`cygpath --path --mixed &quot;$CLASSPATH&quot;`
+</a><a href="#h19-0-111" id="h19-0-111" class="d">-    JAVACMD=`cygpath --unix &quot;$JAVACMD&quot;`
+</a><a href="#h19-0-112" id="h19-0-112" class="d">-
+</a><a href="#h19-0-113" id="h19-0-113" class="d">-    # We build the pattern for arguments to be converted via cygpath
+</a><a href="#h19-0-114" id="h19-0-114" class="d">-    ROOTDIRSRAW=`find -L / -maxdepth 1 -mindepth 1 -type d 2&gt;/dev/null`
+</a><a href="#h19-0-115" id="h19-0-115" class="d">-    SEP=&quot;&quot;
+</a><a href="#h19-0-116" id="h19-0-116" class="d">-    for dir in $ROOTDIRSRAW ; do
+</a><a href="#h19-0-117" id="h19-0-117" class="d">-        ROOTDIRS=&quot;$ROOTDIRS$SEP$dir&quot;
+</a><a href="#h19-0-118" id="h19-0-118" class="d">-        SEP=&quot;|&quot;
+</a><a href="#h19-0-119" id="h19-0-119" class="d">-    done
+</a><a href="#h19-0-120" id="h19-0-120" class="d">-    OURCYGPATTERN=&quot;(^($ROOTDIRS))&quot;
+</a><a href="#h19-0-121" id="h19-0-121" class="d">-    # Add a user-defined pattern to the cygpath arguments
+</a><a href="#h19-0-122" id="h19-0-122" class="d">-    if [ &quot;$GRADLE_CYGPATTERN&quot; != &quot;&quot; ] ; then
+</a><a href="#h19-0-123" id="h19-0-123" class="d">-        OURCYGPATTERN=&quot;$OURCYGPATTERN|($GRADLE_CYGPATTERN)&quot;
+</a><a href="#h19-0-124" id="h19-0-124" class="d">-    fi
+</a><a href="#h19-0-125" id="h19-0-125" class="d">-    # Now convert the arguments - kludge to limit ourselves to /bin/sh
+</a><a href="#h19-0-126" id="h19-0-126" class="d">-    i=0
+</a><a href="#h19-0-127" id="h19-0-127" class="d">-    for arg in &quot;$@&quot; ; do
+</a><a href="#h19-0-128" id="h19-0-128" class="d">-        CHECK=`echo &quot;$arg&quot;|egrep -c &quot;$OURCYGPATTERN&quot; -`
+</a><a href="#h19-0-129" id="h19-0-129" class="d">-        CHECK2=`echo &quot;$arg&quot;|egrep -c &quot;^-&quot;`                                 ### Determine if an option
+</a><a href="#h19-0-130" id="h19-0-130" class="d">-
+</a><a href="#h19-0-131" id="h19-0-131" class="d">-        if [ $CHECK -ne 0 ] &amp;&amp; [ $CHECK2 -eq 0 ] ; then                    ### Added a condition
+</a><a href="#h19-0-132" id="h19-0-132" class="d">-            eval `echo args$i`=`cygpath --path --ignore --mixed &quot;$arg&quot;`
+</a><a href="#h19-0-133" id="h19-0-133" class="d">-        else
+</a><a href="#h19-0-134" id="h19-0-134" class="d">-            eval `echo args$i`=&quot;\&quot;$arg\&quot;&quot;
+</a><a href="#h19-0-135" id="h19-0-135" class="d">-        fi
+</a><a href="#h19-0-136" id="h19-0-136" class="d">-        i=$((i+1))
+</a><a href="#h19-0-137" id="h19-0-137" class="d">-    done
+</a><a href="#h19-0-138" id="h19-0-138" class="d">-    case $i in
+</a><a href="#h19-0-139" id="h19-0-139" class="d">-        (0) set -- ;;
+</a><a href="#h19-0-140" id="h19-0-140" class="d">-        (1) set -- &quot;$args0&quot; ;;
+</a><a href="#h19-0-141" id="h19-0-141" class="d">-        (2) set -- &quot;$args0&quot; &quot;$args1&quot; ;;
+</a><a href="#h19-0-142" id="h19-0-142" class="d">-        (3) set -- &quot;$args0&quot; &quot;$args1&quot; &quot;$args2&quot; ;;
+</a><a href="#h19-0-143" id="h19-0-143" class="d">-        (4) set -- &quot;$args0&quot; &quot;$args1&quot; &quot;$args2&quot; &quot;$args3&quot; ;;
+</a><a href="#h19-0-144" id="h19-0-144" class="d">-        (5) set -- &quot;$args0&quot; &quot;$args1&quot; &quot;$args2&quot; &quot;$args3&quot; &quot;$args4&quot; ;;
+</a><a href="#h19-0-145" id="h19-0-145" class="d">-        (6) set -- &quot;$args0&quot; &quot;$args1&quot; &quot;$args2&quot; &quot;$args3&quot; &quot;$args4&quot; &quot;$args5&quot; ;;
+</a><a href="#h19-0-146" id="h19-0-146" class="d">-        (7) set -- &quot;$args0&quot; &quot;$args1&quot; &quot;$args2&quot; &quot;$args3&quot; &quot;$args4&quot; &quot;$args5&quot; &quot;$args6&quot; ;;
+</a><a href="#h19-0-147" id="h19-0-147" class="d">-        (8) set -- &quot;$args0&quot; &quot;$args1&quot; &quot;$args2&quot; &quot;$args3&quot; &quot;$args4&quot; &quot;$args5&quot; &quot;$args6&quot; &quot;$args7&quot; ;;
+</a><a href="#h19-0-148" id="h19-0-148" class="d">-        (9) set -- &quot;$args0&quot; &quot;$args1&quot; &quot;$args2&quot; &quot;$args3&quot; &quot;$args4&quot; &quot;$args5&quot; &quot;$args6&quot; &quot;$args7&quot; &quot;$args8&quot; ;;
+</a><a href="#h19-0-149" id="h19-0-149" class="d">-    esac
+</a><a href="#h19-0-150" id="h19-0-150" class="d">-fi
+</a><a href="#h19-0-151" id="h19-0-151" class="d">-
+</a><a href="#h19-0-152" id="h19-0-152" class="d">-# Split up the JVM_OPTS And GRADLE_OPTS values into an array, following the shell quoting and substitution rules
+</a><a href="#h19-0-153" id="h19-0-153" class="d">-function splitJvmOpts() {
+</a><a href="#h19-0-154" id="h19-0-154" class="d">-    JVM_OPTS=(&quot;$@&quot;)
+</a><a href="#h19-0-155" id="h19-0-155" class="d">-}
+</a><a href="#h19-0-156" id="h19-0-156" class="d">-eval splitJvmOpts $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS
+</a><a href="#h19-0-157" id="h19-0-157" class="d">-JVM_OPTS[${#JVM_OPTS[*]}]=&quot;-Dorg.gradle.appname=$APP_BASE_NAME&quot;
+</a><a href="#h19-0-158" id="h19-0-158" class="d">-
+</a><a href="#h19-0-159" id="h19-0-159" class="d">-exec &quot;$JAVACMD&quot; &quot;${JVM_OPTS[@]}&quot; -classpath &quot;$CLASSPATH&quot; org.gradle.wrapper.GradleWrapperMain &quot;$@&quot;
+</a><b>diff --git a/<a id="h20" href="../file/android/gradlew.bat.html">android/gradlew.bat</a> b/<a href="../file/android/gradlew.bat.html">android/gradlew.bat</a></b>
+<a href="#h20-0" id="h20-0" class="h">@@ -1,90 +0,0 @@
+</a><a href="#h20-0-0" id="h20-0-0" class="d">-@if &quot;%DEBUG%&quot; == &quot;&quot; @echo off
+</a><a href="#h20-0-1" id="h20-0-1" class="d">-@rem ##########################################################################
+</a><a href="#h20-0-2" id="h20-0-2" class="d">-@rem
+</a><a href="#h20-0-3" id="h20-0-3" class="d">-@rem  Gradle startup script for Windows
+</a><a href="#h20-0-4" id="h20-0-4" class="d">-@rem
+</a><a href="#h20-0-5" id="h20-0-5" class="d">-@rem ##########################################################################
+</a><a href="#h20-0-6" id="h20-0-6" class="d">-
+</a><a href="#h20-0-7" id="h20-0-7" class="d">-@rem Set local scope for the variables with windows NT shell
+</a><a href="#h20-0-8" id="h20-0-8" class="d">-if &quot;%OS%&quot;==&quot;Windows_NT&quot; setlocal
+</a><a href="#h20-0-9" id="h20-0-9" class="d">-
+</a><a href="#h20-0-10" id="h20-0-10" class="d">-@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
+</a><a href="#h20-0-11" id="h20-0-11" class="d">-set DEFAULT_JVM_OPTS=
+</a><a href="#h20-0-12" id="h20-0-12" class="d">-
+</a><a href="#h20-0-13" id="h20-0-13" class="d">-set DIRNAME=%~dp0
+</a><a href="#h20-0-14" id="h20-0-14" class="d">-if &quot;%DIRNAME%&quot; == &quot;&quot; set DIRNAME=.
+</a><a href="#h20-0-15" id="h20-0-15" class="d">-set APP_BASE_NAME=%~n0
+</a><a href="#h20-0-16" id="h20-0-16" class="d">-set APP_HOME=%DIRNAME%
+</a><a href="#h20-0-17" id="h20-0-17" class="d">-
+</a><a href="#h20-0-18" id="h20-0-18" class="d">-@rem Find java.exe
+</a><a href="#h20-0-19" id="h20-0-19" class="d">-if defined JAVA_HOME goto findJavaFromJavaHome
+</a><a href="#h20-0-20" id="h20-0-20" class="d">-
+</a><a href="#h20-0-21" id="h20-0-21" class="d">-set JAVA_EXE=java.exe
+</a><a href="#h20-0-22" id="h20-0-22" class="d">-%JAVA_EXE% -version &gt;NUL 2&gt;&amp;1
+</a><a href="#h20-0-23" id="h20-0-23" class="d">-if &quot;%ERRORLEVEL%&quot; == &quot;0&quot; goto init
+</a><a href="#h20-0-24" id="h20-0-24" class="d">-
+</a><a href="#h20-0-25" id="h20-0-25" class="d">-echo.
+</a><a href="#h20-0-26" id="h20-0-26" class="d">-echo ERROR: JAVA_HOME is not set and no &#39;java&#39; command could be found in your PATH.
+</a><a href="#h20-0-27" id="h20-0-27" class="d">-echo.
+</a><a href="#h20-0-28" id="h20-0-28" class="d">-echo Please set the JAVA_HOME variable in your environment to match the
+</a><a href="#h20-0-29" id="h20-0-29" class="d">-echo location of your Java installation.
+</a><a href="#h20-0-30" id="h20-0-30" class="d">-
+</a><a href="#h20-0-31" id="h20-0-31" class="d">-goto fail
+</a><a href="#h20-0-32" id="h20-0-32" class="d">-
+</a><a href="#h20-0-33" id="h20-0-33" class="d">-:findJavaFromJavaHome
+</a><a href="#h20-0-34" id="h20-0-34" class="d">-set JAVA_HOME=%JAVA_HOME:&quot;=%
+</a><a href="#h20-0-35" id="h20-0-35" class="d">-set JAVA_EXE=%JAVA_HOME%/bin/java.exe
+</a><a href="#h20-0-36" id="h20-0-36" class="d">-
+</a><a href="#h20-0-37" id="h20-0-37" class="d">-if exist &quot;%JAVA_EXE%&quot; goto init
+</a><a href="#h20-0-38" id="h20-0-38" class="d">-
+</a><a href="#h20-0-39" id="h20-0-39" class="d">-echo.
+</a><a href="#h20-0-40" id="h20-0-40" class="d">-echo ERROR: JAVA_HOME is set to an invalid directory: %JAVA_HOME%
+</a><a href="#h20-0-41" id="h20-0-41" class="d">-echo.
+</a><a href="#h20-0-42" id="h20-0-42" class="d">-echo Please set the JAVA_HOME variable in your environment to match the
+</a><a href="#h20-0-43" id="h20-0-43" class="d">-echo location of your Java installation.
+</a><a href="#h20-0-44" id="h20-0-44" class="d">-
+</a><a href="#h20-0-45" id="h20-0-45" class="d">-goto fail
+</a><a href="#h20-0-46" id="h20-0-46" class="d">-
+</a><a href="#h20-0-47" id="h20-0-47" class="d">-:init
+</a><a href="#h20-0-48" id="h20-0-48" class="d">-@rem Get command-line arguments, handling Windowz variants
+</a><a href="#h20-0-49" id="h20-0-49" class="d">-
+</a><a href="#h20-0-50" id="h20-0-50" class="d">-if not &quot;%OS%&quot; == &quot;Windows_NT&quot; goto win9xME_args
+</a><a href="#h20-0-51" id="h20-0-51" class="d">-if &quot;%@eval[2+2]&quot; == &quot;4&quot; goto 4NT_args
+</a><a href="#h20-0-52" id="h20-0-52" class="d">-
+</a><a href="#h20-0-53" id="h20-0-53" class="d">-:win9xME_args
+</a><a href="#h20-0-54" id="h20-0-54" class="d">-@rem Slurp the command line arguments.
+</a><a href="#h20-0-55" id="h20-0-55" class="d">-set CMD_LINE_ARGS=
+</a><a href="#h20-0-56" id="h20-0-56" class="d">-set _SKIP=2
+</a><a href="#h20-0-57" id="h20-0-57" class="d">-
+</a><a href="#h20-0-58" id="h20-0-58" class="d">-:win9xME_args_slurp
+</a><a href="#h20-0-59" id="h20-0-59" class="d">-if &quot;x%~1&quot; == &quot;x&quot; goto execute
+</a><a href="#h20-0-60" id="h20-0-60" class="d">-
+</a><a href="#h20-0-61" id="h20-0-61" class="d">-set CMD_LINE_ARGS=%*
+</a><a href="#h20-0-62" id="h20-0-62" class="d">-goto execute
+</a><a href="#h20-0-63" id="h20-0-63" class="d">-
+</a><a href="#h20-0-64" id="h20-0-64" class="d">-:4NT_args
+</a><a href="#h20-0-65" id="h20-0-65" class="d">-@rem Get arguments from the 4NT Shell from JP Software
+</a><a href="#h20-0-66" id="h20-0-66" class="d">-set CMD_LINE_ARGS=%$
+</a><a href="#h20-0-67" id="h20-0-67" class="d">-
+</a><a href="#h20-0-68" id="h20-0-68" class="d">-:execute
+</a><a href="#h20-0-69" id="h20-0-69" class="d">-@rem Setup the command line
+</a><a href="#h20-0-70" id="h20-0-70" class="d">-
+</a><a href="#h20-0-71" id="h20-0-71" class="d">-set CLASSPATH=%APP_HOME%\gradle\wrapper\gradle-wrapper.jar
+</a><a href="#h20-0-72" id="h20-0-72" class="d">-
+</a><a href="#h20-0-73" id="h20-0-73" class="d">-@rem Execute Gradle
+</a><a href="#h20-0-74" id="h20-0-74" class="d">-&quot;%JAVA_EXE%&quot; %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_OPTS% &quot;-Dorg.gradle.appname=%APP_BASE_NAME%&quot; -classpath &quot;%CLASSPATH%&quot; org.gradle.wrapper.GradleWrapperMain %CMD_LINE_ARGS%
+</a><a href="#h20-0-75" id="h20-0-75" class="d">-
+</a><a href="#h20-0-76" id="h20-0-76" class="d">-:end
+</a><a href="#h20-0-77" id="h20-0-77" class="d">-@rem End local scope for the variables with windows NT shell
+</a><a href="#h20-0-78" id="h20-0-78" class="d">-if &quot;%ERRORLEVEL%&quot;==&quot;0&quot; goto mainEnd
+</a><a href="#h20-0-79" id="h20-0-79" class="d">-
+</a><a href="#h20-0-80" id="h20-0-80" class="d">-:fail
+</a><a href="#h20-0-81" id="h20-0-81" class="d">-rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of
+</a><a href="#h20-0-82" id="h20-0-82" class="d">-rem the _cmd.exe /c_ return code!
+</a><a href="#h20-0-83" id="h20-0-83" class="d">-if  not &quot;&quot; == &quot;%GRADLE_EXIT_CONSOLE%&quot; exit 1
+</a><a href="#h20-0-84" id="h20-0-84" class="d">-exit /b 1
+</a><a href="#h20-0-85" id="h20-0-85" class="d">-
+</a><a href="#h20-0-86" id="h20-0-86" class="d">-:mainEnd
+</a><a href="#h20-0-87" id="h20-0-87" class="d">-if &quot;%OS%&quot;==&quot;Windows_NT&quot; endlocal
+</a><a href="#h20-0-88" id="h20-0-88" class="d">-
+</a><a href="#h20-0-89" id="h20-0-89" class="d">-:omega
+</a><b>diff --git a/<a id="h21" href="../file/android/local.properties.html">android/local.properties</a> b/<a href="../file/android/local.properties.html">android/local.properties</a></b>
+<a href="#h21-0" id="h21-0" class="h">@@ -1,2 +0,0 @@
+</a><a href="#h21-0-0" id="h21-0-0" class="d">-sdk.dir=/home/sanal/Android/Sdk
+</a><a href="#h21-0-1" id="h21-0-1" class="d">-flutter.sdk=/home/sanal/gitworks/flutter
+</a><a href="#h21-0-2" id="h21-0-2" class="d">-\ No newline at end of file
+</a><b>diff --git a/<a id="h22" href="../file/android/project_app_android.iml.html">android/project_app_android.iml</a> b/<a href="../file/android/project_app_android.iml.html">android/project_app_android.iml</a></b>
+<a href="#h22-0" id="h22-0" class="h">@@ -1,29 +0,0 @@
+</a><a href="#h22-0-0" id="h22-0-0" class="d">-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+</a><a href="#h22-0-1" id="h22-0-1" class="d">-&lt;module type=&quot;JAVA_MODULE&quot; version=&quot;4&quot;&gt;
+</a><a href="#h22-0-2" id="h22-0-2" class="d">-  &lt;component name=&quot;FacetManager&quot;&gt;
+</a><a href="#h22-0-3" id="h22-0-3" class="d">-    &lt;facet type=&quot;android&quot; name=&quot;Android&quot;&gt;
+</a><a href="#h22-0-4" id="h22-0-4" class="d">-      &lt;configuration&gt;
+</a><a href="#h22-0-5" id="h22-0-5" class="d">-        &lt;option name=&quot;ALLOW_USER_CONFIGURATION&quot; value=&quot;false&quot; /&gt;
+</a><a href="#h22-0-6" id="h22-0-6" class="d">-        &lt;option name=&quot;GEN_FOLDER_RELATIVE_PATH_APT&quot; value=&quot;/gen&quot; /&gt;
+</a><a href="#h22-0-7" id="h22-0-7" class="d">-        &lt;option name=&quot;GEN_FOLDER_RELATIVE_PATH_AIDL&quot; value=&quot;/gen&quot; /&gt;
+</a><a href="#h22-0-8" id="h22-0-8" class="d">-        &lt;option name=&quot;MANIFEST_FILE_RELATIVE_PATH&quot; value=&quot;/app/src/main/AndroidManifest.xml&quot; /&gt;
+</a><a href="#h22-0-9" id="h22-0-9" class="d">-        &lt;option name=&quot;RES_FOLDER_RELATIVE_PATH&quot; value=&quot;/app/src/main/res&quot; /&gt;
+</a><a href="#h22-0-10" id="h22-0-10" class="d">-        &lt;option name=&quot;ASSETS_FOLDER_RELATIVE_PATH&quot; value=&quot;/app/src/main/assets&quot; /&gt;
+</a><a href="#h22-0-11" id="h22-0-11" class="d">-        &lt;option name=&quot;LIBS_FOLDER_RELATIVE_PATH&quot; value=&quot;/app/src/main/libs&quot; /&gt;
+</a><a href="#h22-0-12" id="h22-0-12" class="d">-        &lt;option name=&quot;PROGUARD_LOGS_FOLDER_RELATIVE_PATH&quot; value=&quot;/app/src/main/proguard_logs&quot; /&gt;
+</a><a href="#h22-0-13" id="h22-0-13" class="d">-      &lt;/configuration&gt;
+</a><a href="#h22-0-14" id="h22-0-14" class="d">-    &lt;/facet&gt;
+</a><a href="#h22-0-15" id="h22-0-15" class="d">-  &lt;/component&gt;
+</a><a href="#h22-0-16" id="h22-0-16" class="d">-  &lt;component name=&quot;NewModuleRootManager&quot; inherit-compiler-output=&quot;true&quot;&gt;
+</a><a href="#h22-0-17" id="h22-0-17" class="d">-    &lt;exclude-output /&gt;
+</a><a href="#h22-0-18" id="h22-0-18" class="d">-    &lt;content url=&quot;file://$MODULE_DIR$&quot;&gt;
+</a><a href="#h22-0-19" id="h22-0-19" class="d">-      &lt;sourceFolder url=&quot;file://$MODULE_DIR$/app/src/main/java&quot; isTestSource=&quot;false&quot; /&gt;
+</a><a href="#h22-0-20" id="h22-0-20" class="d">-      &lt;sourceFolder url=&quot;file://$MODULE_DIR$/app/src/main/kotlin&quot; isTestSource=&quot;false&quot; /&gt;
+</a><a href="#h22-0-21" id="h22-0-21" class="d">-      &lt;sourceFolder url=&quot;file://$MODULE_DIR$/gen&quot; isTestSource=&quot;false&quot; generated=&quot;true&quot; /&gt;
+</a><a href="#h22-0-22" id="h22-0-22" class="d">-    &lt;/content&gt;
+</a><a href="#h22-0-23" id="h22-0-23" class="d">-    &lt;orderEntry type=&quot;jdk&quot; jdkName=&quot;Android API 29 Platform&quot; jdkType=&quot;Android SDK&quot; /&gt;
+</a><a href="#h22-0-24" id="h22-0-24" class="d">-    &lt;orderEntry type=&quot;sourceFolder&quot; forTests=&quot;false&quot; /&gt;
+</a><a href="#h22-0-25" id="h22-0-25" class="d">-    &lt;orderEntry type=&quot;library&quot; name=&quot;Flutter for Android&quot; level=&quot;project&quot; /&gt;
+</a><a href="#h22-0-26" id="h22-0-26" class="d">-    &lt;orderEntry type=&quot;library&quot; name=&quot;KotlinJavaRuntime&quot; level=&quot;project&quot; /&gt;
+</a><a href="#h22-0-27" id="h22-0-27" class="d">-  &lt;/component&gt;
+</a><a href="#h22-0-28" id="h22-0-28" class="d">-&lt;/module&gt;
+</a><b>diff --git a/<a id="h23" href="../file/android/settings.gradle.html">android/settings.gradle</a> b/<a href="../file/android/settings.gradle.html">android/settings.gradle</a></b>
+<a href="#h23-0" id="h23-0" class="h">@@ -1,11 +0,0 @@
+</a><a href="#h23-0-0" id="h23-0-0" class="d">-include &#39;:app&#39;
+</a><a href="#h23-0-1" id="h23-0-1" class="d">-
+</a><a href="#h23-0-2" id="h23-0-2" class="d">-def localPropertiesFile = new File(rootProject.projectDir, &quot;local.properties&quot;)
+</a><a href="#h23-0-3" id="h23-0-3" class="d">-def properties = new Properties()
+</a><a href="#h23-0-4" id="h23-0-4" class="d">-
+</a><a href="#h23-0-5" id="h23-0-5" class="d">-assert localPropertiesFile.exists()
+</a><a href="#h23-0-6" id="h23-0-6" class="d">-localPropertiesFile.withReader(&quot;UTF-8&quot;) { reader -&gt; properties.load(reader) }
+</a><a href="#h23-0-7" id="h23-0-7" class="d">-
+</a><a href="#h23-0-8" id="h23-0-8" class="d">-def flutterSdkPath = properties.getProperty(&quot;flutter.sdk&quot;)
+</a><a href="#h23-0-9" id="h23-0-9" class="d">-assert flutterSdkPath != null, &quot;flutter.sdk not set in local.properties&quot;
+</a><a href="#h23-0-10" id="h23-0-10" class="d">-apply from: &quot;$flutterSdkPath/packages/flutter_tools/gradle/app_plugin_loader.gradle&quot;
+</a></pre>
+</div>
+</body>
+</html>
