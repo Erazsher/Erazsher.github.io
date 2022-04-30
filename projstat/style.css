@@ -1,8 +1,9 @@
 body {
 	color: #e3d7bf;
 	background-color:  #211a1a;
-	font-family: Sans-seriff;
+	font-family: "Sans-seriff";
         font-size: x-large;
+	font-weight: bold;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,11 +31,11 @@ a.line {
 }
 
 #blob a {
-	color: #555;
+	color:  #e16734;
 }
 
 #blob a:hover {
-	color: blue;
+	color:  #82A6B0;
 	text-decoration: none;
 }
 
@@ -150,6 +151,6 @@ pre a.d:hover {
 	#index tr:hover td,
 	#log tr:hover td,
 	#files tr:hover td {
-		background-color: #111;
+		background-color: #e3d7bf;
 	}
 }
